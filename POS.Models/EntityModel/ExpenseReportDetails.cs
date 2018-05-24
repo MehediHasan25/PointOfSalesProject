@@ -6,19 +6,17 @@ using System.Threading.Tasks;
 
 namespace POS.Models.EntityModel
 {
-   public class Stock
+   public class ExpenseReportDetails
     {
         public int Id { get; set; }
-        public int StockQuantity { get; set; }
-
-        public int OrganizationId { get; set; }
-        public Organizations Organization { get; set; }
+        public string Date { get; set; }
+        public string Description { get; set; }
+        public double TotalExpense { get; set; }
 
         public int BranchId { get; set; }
         public Branch Branch { get; set; }
 
-        //Item Reference
-        public int ItemId { get; set; }
-        public Item Item { get; set; }
+        public int ExpenseReportId { get; set; }
+        public ExpenseReport ExpenseReport { get; set; }
     }
 }
