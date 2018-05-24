@@ -48,9 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseContext\PosManagementDbContext.cs" />
-    <Compile Include="Migrations\201805241904075_Initialdatabase.cs" />
-    <Compile Include="Migrations\201805241904075_Initialdatabase.Designer.cs">
-      <DependentUpon>201805241904075_Initialdatabase.cs</DependentUpon>
+    <Compile Include="Migrations\201805241935381_InitialMigration.cs" />
+    <Compile Include="Migrations\201805241935381_InitialMigration.Designer.cs">
+      <DependentUpon>201805241935381_InitialMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,8 +70,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201805241904075_Initialdatabase.resx">
-      <DependentUpon>201805241904075_Initialdatabase.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805241935381_InitialMigration.resx">
+      <DependentUpon>201805241935381_InitialMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

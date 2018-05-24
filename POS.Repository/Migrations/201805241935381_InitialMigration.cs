@@ -3,7 +3,7 @@ namespace POS.Repository.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Initialdatabase : DbMigration
+    public partial class InitialMigration : DbMigration
     {
         public override void Up()
         {
