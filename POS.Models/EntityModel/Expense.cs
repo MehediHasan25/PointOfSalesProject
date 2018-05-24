@@ -12,7 +12,7 @@ namespace POS.Models.EntityModel
         public int ExpenseNumber { get; set; }
         public string ExpenseDate { get; set; }
         public string ReasonsOfExpense { get; set; }
-        public long  ExpenseTotalAmount { get; set; }
+        public long ExpenseTotalAmount { get; set; }
 
         //Organization Refered
         public int OrgnaizationId { get; set; }
@@ -23,8 +23,8 @@ namespace POS.Models.EntityModel
         public Branch Branch { get; set; }
 
         //Employee Refered
-        public int EmployeeInfoId { get; set; }
-        public EmployeeInfo Employee { get; set; }
+        //public int EmployeeInfoId { get; set; }
+        //public EmployeeInfo EmployeeInfo { get; set; }
 
         /// List OF Purchase Detais
         public List<ExpenseDetails> ExpenseDetailses { get; set; }
