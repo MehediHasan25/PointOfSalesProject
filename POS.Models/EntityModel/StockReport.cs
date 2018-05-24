@@ -16,6 +16,6 @@ namespace POS.Models.EntityModel
         public int OrganizationId { get; set; }
         public Organizations Organization { get; set; }
 
-        public List<StockReportDetails>StockReportDetailses { get; set; }
+        public List<StockReportDetails> StockReportDetailses { get; set; }
     }
 }

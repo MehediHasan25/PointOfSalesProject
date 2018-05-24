@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace POS.Models.EntityModel
 {
-    class IncomeReportDetails
+   public class IncomeReportDetails
     {
+        public int Id { get; set; }
+        public double TotalPurchase { get; set; }
+        public double TotalSales { get; set; }
+
+        public int IncomeReportId { get; set; }
+        public IncomeReport IncomeReport { get; set; }
     }
 }

@@ -30,7 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -48,6 +55,8 @@
     <Compile Include="EntityModel\ExpenseItem.cs" />
     <Compile Include="EntityModel\ExpenseReport.cs" />
     <Compile Include="EntityModel\ExpenseReportDetails.cs" />
+    <Compile Include="EntityModel\IncomeReport.cs" />
+    <Compile Include="EntityModel\IncomeReportDetails.cs" />
     <Compile Include="EntityModel\Item.cs" />
     <Compile Include="EntityModel\ItemCategory.cs" />
     <Compile Include="EntityModel\OfficialInfo.cs" />
@@ -63,9 +72,13 @@
     <Compile Include="EntityModel\SalesReport.cs" />
     <Compile Include="EntityModel\SalesReportDetails.cs" />
     <Compile Include="EntityModel\Stock.cs" />
-    <Compile Include="EntityModel\StockDetails.cs" />
+    <Compile Include="EntityModel\StockReport.cs" />
+    <Compile Include="EntityModel\StockReportDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
