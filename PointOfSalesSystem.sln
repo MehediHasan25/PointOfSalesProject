@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointOfSalesSystem", "Point
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Models", "POS.Models\POS.Models.csproj", "{2202C685-AEE0-4BBE-B23B-2AEB8FF8A969}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Repository", "POS.Repository\POS.Repository.csproj", "{0E618828-4AD6-4DCD-AAAC-0F2A03DFA312}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2202C685-AEE0-4BBE-B23B-2AEB8FF8A969}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2202C685-AEE0-4BBE-B23B-2AEB8FF8A969}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2202C685-AEE0-4BBE-B23B-2AEB8FF8A969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E618828-4AD6-4DCD-AAAC-0F2A03DFA312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E618828-4AD6-4DCD-AAAC-0F2A03DFA312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E618828-4AD6-4DCD-AAAC-0F2A03DFA312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E618828-4AD6-4DCD-AAAC-0F2A03DFA312}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
