@@ -36,6 +36,8 @@ namespace POS.Repository.DatabaseContext
         public DbSet<Stock> Stocks { get; set; }
         public DbSet<StockReport> StockReports { get; set; }
         public DbSet<StockReportDetails> StockReportDetailses { get; set; }
+        public DbSet<IncomeReport> IncomeReports { get; set; }
+        public DbSet<IncomeReportDetails> IncomeReportDetails { get; set; }
 
 
     }
