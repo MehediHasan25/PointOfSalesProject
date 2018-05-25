@@ -63,7 +63,7 @@
     <Compile Include="EntityModel\Organizations.cs" />
     <Compile Include="EntityModel\Party.cs" />
     <Compile Include="EntityModel\PersonalInfo.cs" />
-    <Compile Include="EntityModel\Purchase.cs" />
+    <Compile Include="EntityModel\PurchaseReceving.cs" />
     <Compile Include="EntityModel\PurchaseDetails.cs" />
     <Compile Include="EntityModel\PurchaseReport.cs" />
     <Compile Include="EntityModel\PurchaseReportDetails.cs" />

@@ -11,8 +11,7 @@ namespace POS.Models.EntityModel
         public int Id { get; set; }
         public int StockQuantity { get; set; }
 
-        public int OrganizationId { get; set; }
-        public Organizations Organization { get; set; }
+       
 
         public int? BranchId { get; set; }
         public Branch Branch { get; set; }

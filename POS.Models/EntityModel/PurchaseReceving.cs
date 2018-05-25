@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POS.Models.EntityModel
 {
-    public class Purchase
+    public class PurchaseReceiving
     {
         public int Id { get; set; }
         public int PurchaseNumber { get; set; }
@@ -30,8 +30,8 @@ namespace POS.Models.EntityModel
         public EmployeeInfo EmployeeInfo { get; set; }
         
         /// List OF Purchase Detais
-        public List<PurchaseDetails> PurchaseDetailses { get; set; }
-
+        public List<PurchaseReceivingDetails> PurchaseReceivingDetailses { get; set; }
+   
         
 
     }

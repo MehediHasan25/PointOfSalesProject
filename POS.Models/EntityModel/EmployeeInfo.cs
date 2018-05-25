@@ -16,7 +16,7 @@ namespace POS.Models.EntityModel
         public int? OfficialInfoId { get; set; }
         public OfficialInfo OfficialInfo { get; set; }
 
-        public List<Purchase> Purchases { get; set; }
+        public List<PurchaseReceiving> PurchasesReceivings { get; set; }
 
 
 

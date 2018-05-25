@@ -25,7 +25,7 @@ namespace POS.Repository.DatabaseContext
         public DbSet<ItemCategory> ItemCategories { get; set; }
         public DbSet<Party> Parties { get; set; }
         public DbSet<Purchase> Purchases { get; set; }
-        public DbSet<PurchaseDetails> PurchaseDetailses { get; set; }
+        public DbSet<PurchaseReceivingDetails> PurchaseDetailses { get; set; }
         public DbSet<PurchaseReport> PurchaseReports { get; set; }
         public DbSet<PurchaseReportDetails> PurchaseReportDetailses { get; set; }
         public DbSet<Sales> Saleses { get; set; }

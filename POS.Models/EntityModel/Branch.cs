@@ -19,7 +19,7 @@ namespace POS.Models.EntityModel
 
         public List<Expense> Expenses { get; set; }
         public List<Sales> Saleses { get; set; }
-        public List<Purchase> Purchases { get; set; }
+        public List<PurchaseReceiving> PurchaseReceivings { get; set; }
          public List<PurchaseReport> PurchaseReports { get; set; }
         public List<ExpenseReport> ExpenseReports { get; set; }
         public List<SalesReport> SalesReports { get; set; }
