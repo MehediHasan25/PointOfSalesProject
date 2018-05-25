@@ -56,6 +56,21 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ItemCategoryRepository.cs" />
+    <Compile Include="Repositories\OfficialInfoRepository.cs" />
+    <Compile Include="Repositories\OrganizationsRepository.cs" />
+    <Compile Include="Repositories\PartyRepository.cs" />
+    <Compile Include="Repositories\PersonalInfoRepository.cs" />
+    <Compile Include="Repositories\PurchaseReceivingDetailsRepository.cs" />
+    <Compile Include="Repositories\PurchaseReceivingRepository.cs" />
+    <Compile Include="Repositories\PurchaseReportDetailsRepository.cs" />
+    <Compile Include="Repositories\PurchaseReportRepository.cs" />
+    <Compile Include="Repositories\SalesDetailsRepository.cs" />
+    <Compile Include="Repositories\SalesReportDetailsRepository.cs" />
+    <Compile Include="Repositories\SalesReportRepository.cs" />
+    <Compile Include="Repositories\SalesRepository.cs" />
+    <Compile Include="Repositories\StockReportDetailsRepository.cs" />
+    <Compile Include="Repositories\StockReportRepository.cs" />
+    <Compile Include="Repositories\StockRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
