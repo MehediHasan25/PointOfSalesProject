@@ -20,13 +20,13 @@ namespace POS.Models.EntityModel
 
 
         //Supplier Refered
-        public int PartyId { get; set; }
+        public int? PartyId { get; set; }
         public Party Party { get; set; }
 
       
 
         //Employee Refered
-        public int EmployeeInfoId { get; set; }
+        public int? EmployeeInfoId { get; set; }
         public EmployeeInfo EmployeeInfo { get; set; }
         
         /// List OF Purchase Detais
