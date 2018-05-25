@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace POS.Repository.Repositories
 {
-    public class ItemCategoryRepository : Respository<ItemCategory>
+    public class ItemCategoryRepository : Repository<ItemCategory>
     {
         public ItemCategoryRepository() : base(new PosManagementDbContext())
         {

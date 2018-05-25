@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace POS.Repository.Base
 {
-    public abstract class Respository <T> where T:class
+    public abstract class Repository <T> where T:class
     {
         protected DbContext Db;
 
