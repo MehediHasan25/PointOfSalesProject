@@ -14,11 +14,11 @@ namespace POS.Models.EntityModel
         public int OrganizationId { get; set; }
         public Organizations Organization { get; set; }
 
-        public int BranchId { get; set; }
+        public int? BranchId { get; set; }
         public Branch Branch { get; set; }
 
         //Item Reference
-        public int ItemId { get; set; }
+        public int? ItemId { get; set; }
         public Item Item { get; set; }
     }
 }

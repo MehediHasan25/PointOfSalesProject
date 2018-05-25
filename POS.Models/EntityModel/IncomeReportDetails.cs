@@ -12,7 +12,7 @@ namespace POS.Models.EntityModel
         public double TotalPurchase { get; set; }
         public double TotalSales { get; set; }
 
-        public int IncomeReportId { get; set; }
+        public int? IncomeReportId { get; set; }
         public IncomeReport IncomeReport { get; set; }
     }
 }

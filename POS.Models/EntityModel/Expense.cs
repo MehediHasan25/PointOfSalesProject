@@ -15,11 +15,11 @@ namespace POS.Models.EntityModel
         public long ExpenseTotalAmount { get; set; }
 
         //Organization Refered
-        public int OrgnaizationId { get; set; }
+        public int? OrgnaizationId { get; set; }
         public Organizations organization { get; set; }
 
         //Branch Refered
-        public int BranchId { get; set; }
+        public int? BranchId { get; set; }
         public Branch Branch { get; set; }
 
         //Employee Refered

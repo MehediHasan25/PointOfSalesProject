@@ -17,19 +17,19 @@ namespace POS.Models.EntityModel
         public long SalesTotalAmount { get; set; }
 
         //Organization Refered
-        public int OrgnaizationId { get; set; }
+        public int? OrgnaizationId { get; set; }
         public Organizations organization { get; set; }
         
         //Customer Refered
-        public int PartyId { get; set; }
+        public int? PartyId { get; set; }
         public Party Party { get; set; }
 
         //Branch Refered
-        public int BranchId { get; set; }
+        public int? BranchId { get; set; }
         public Branch Branch { get; set; }
 
         //Employee Refered
-        public int EmployeeInfoId { get; set; }
+        public int? EmployeeInfoId { get; set; }
         public EmployeeInfo Employee { get; set; }
 
         //List of Sales Details

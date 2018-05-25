@@ -48,9 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseContext\PosManagementDbContext.cs" />
-    <Compile Include="Migrations\201805242007283_BranchOrganization.cs" />
-    <Compile Include="Migrations\201805242007283_BranchOrganization.Designer.cs">
-      <DependentUpon>201805242007283_BranchOrganization.cs</DependentUpon>
+    <Compile Include="Migrations\201805251134126_Donehopeso.cs" />
+    <Compile Include="Migrations\201805251134126_Donehopeso.Designer.cs">
+      <DependentUpon>201805251134126_Donehopeso.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,8 +70,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201805242007283_BranchOrganization.resx">
-      <DependentUpon>201805242007283_BranchOrganization.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805251134126_Donehopeso.resx">
+      <DependentUpon>201805251134126_Donehopeso.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

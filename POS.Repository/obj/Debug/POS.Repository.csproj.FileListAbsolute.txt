@@ -13,5 +13,5 @@ G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debu
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.CopyComplete
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.pdb
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.BranchOrganization.resources
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.Donehopeso.resources
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache

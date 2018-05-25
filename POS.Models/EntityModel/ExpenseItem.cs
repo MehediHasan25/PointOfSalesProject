@@ -15,7 +15,7 @@ namespace POS.Models.EntityModel
         public byte[] Image { get; set; }
 
         //Expense Category Refere
-        public int ExpenseCategoryId { get; set; }
+        public int? ExpenseCategoryId { get; set; }
         public ExpenseCategory ExpenseCategory { get; set; }
     }
 }

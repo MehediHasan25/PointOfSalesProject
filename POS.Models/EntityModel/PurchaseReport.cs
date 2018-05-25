@@ -13,7 +13,7 @@ namespace POS.Models.EntityModel
         public string FromDate { get; set; }
         public string ToDate { get; set; }
 
-        public int BranchId { get; set; }
+        public int? BranchId { get; set; }
         public Branch Branch { get; set; }
 
         public List<PurchaseReportDetails> PurchaseReportDetailses { get; set; }

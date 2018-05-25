@@ -12,10 +12,13 @@ namespace POS.Models.EntityModel
         public string FromDate { get; set; }
         public string ToDate { get; set; }
 
-        public int PurchaseReportId { get; set; }
+        public int? BranchId { get; set; }
+        public Branch Branch { get; set; }
+
+        public int? PurchaseReportId { get; set; }
         public PurchaseReport PurchaseReport { get; set; }
 
-        public int SalesReportId { get; set; }
+        public int? SalesReportId { get; set; }
         public SalesReport SalesReport { get; set; }
 
         public List<IncomeReportDetails> IncomeReportDetailses { get; set; }

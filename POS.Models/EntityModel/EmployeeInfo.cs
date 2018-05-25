@@ -10,13 +10,15 @@ namespace POS.Models.EntityModel
     {
         public int Id { get; set; }
 
-        public int PersonalInfoId { get; set; }
+        public int? PersonalInfoId { get; set; }
         public PersonalInfo PersonalInfo { get; set; }
 
-        public int OfficialInfoId { get; set; }
+        public int? OfficialInfoId { get; set; }
         public OfficialInfo OfficialInfo { get; set; }
 
-        public int ReferenceId { get; set; }
-        public EmployeeInfo Reference { get; set; }
+        public List<Purchase> Purchases { get; set; }
+
+
+
     }
 }

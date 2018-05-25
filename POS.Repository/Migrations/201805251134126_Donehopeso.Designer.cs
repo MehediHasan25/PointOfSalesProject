@@ -7,13 +7,13 @@ namespace POS.Repository.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class BranchOrganization : IMigrationMetadata
+    public sealed partial class Donehopeso : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(BranchOrganization));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Donehopeso));
         
         string IMigrationMetadata.Id
         {
-            get { return "201805242007283_BranchOrganization"; }
+            get { return "201805251134126_Donehopeso"; }
         }
         
         string IMigrationMetadata.Source

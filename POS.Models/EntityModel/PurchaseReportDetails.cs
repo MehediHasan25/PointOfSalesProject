@@ -13,13 +13,12 @@ namespace POS.Models.EntityModel
         public string  Description { get; set; }
         public double PurchaseTotal { get; set; }
 
-        public int BranchId { get; set; }
-        public Branch Branch { get; set; }
+        
 
-        public int PartyId { get; set; }
+        public int? PartyId { get; set; }
         public Party Party { get; set; }
 
-        public int PurchaseReportId { get; set; }
+        public int? PurchaseReportId { get; set; }
         public PurchaseReport PurchaseReport { get; set; }
     }
 }
