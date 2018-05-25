@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\Respository.cs" />
     <Compile Include="DatabaseContext\PosManagementDbContext.cs" />
     <Compile Include="Migrations\201805251134126_Donehopeso.cs" />
     <Compile Include="Migrations\201805251134126_Donehopeso.Designer.cs">
@@ -54,15 +55,13 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ItemCategoryRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Base\" />
-    <Folder Include="Repositories\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\POS.Models\POS.Models.csproj">
       <Project>{2202c685-aee0-4bbe-b23b-2aeb8ff8a969}</Project>
