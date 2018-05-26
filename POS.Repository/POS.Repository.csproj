@@ -49,9 +49,9 @@
   <ItemGroup>
     <Compile Include="Base\Repository.cs" />
     <Compile Include="DatabaseContext\PosManagementDbContext.cs" />
-    <Compile Include="Migrations\201805251134126_Donehopeso.cs" />
-    <Compile Include="Migrations\201805251134126_Donehopeso.Designer.cs">
-      <DependentUpon>201805251134126_Donehopeso.cs</DependentUpon>
+    <Compile Include="Migrations\201805262042131_AfterCreatingVM.cs" />
+    <Compile Include="Migrations\201805262042131_AfterCreatingVM.Designer.cs">
+      <DependentUpon>201805262042131_AfterCreatingVM.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
@@ -111,12 +111,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201805251134126_Donehopeso.resx">
-      <DependentUpon>201805251134126_Donehopeso.cs</DependentUpon>
-    </EmbeddedResource>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bin\Release\" />
+    <EmbeddedResource Include="Migrations\201805262042131_AfterCreatingVM.resx">
+      <DependentUpon>201805262042131_AfterCreatingVM.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

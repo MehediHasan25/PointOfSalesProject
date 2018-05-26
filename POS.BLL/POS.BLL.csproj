@@ -55,9 +55,30 @@
     <Compile Include="ManagerRepositories\ItemManager.cs" />
     <Compile Include="ManagerRepositories\OfficialInfoManager.cs" />
     <Compile Include="ManagerRepositories\OrganizationsManager.cs" />
+    <Compile Include="ManagerRepositories\PartyManager.cs" />
+    <Compile Include="ManagerRepositories\PersonalInfoManager.cs" />
+    <Compile Include="ManagerRepositories\PurchaseReceivingDetailsManager.cs" />
+    <Compile Include="ManagerRepositories\PurchaseReceivingManager.cs" />
+    <Compile Include="ManagerRepositories\PurchaseReportDetailsManager.cs" />
+    <Compile Include="ManagerRepositories\PurchaseReportManager.cs" />
+    <Compile Include="ManagerRepositories\SalesDetailsManager.cs" />
+    <Compile Include="ManagerRepositories\SalesManager.cs" />
+    <Compile Include="ManagerRepositories\SalesReportDetailsManager.cs" />
+    <Compile Include="ManagerRepositories\SalesReportManager.cs" />
+    <Compile Include="ManagerRepositories\StockManager.cs" />
+    <Compile Include="ManagerRepositories\StockReportDetailsManager.cs" />
+    <Compile Include="ManagerRepositories\StockReportManager.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="obj\Debug\build.force" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\POS.BLL.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\POS.BLL.csprojAssemblyReference.cache" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\POS.Models\POS.Models.csproj">
       <Project>{2202C685-AEE0-4BBE-B23B-2AEB8FF8A969}</Project>
@@ -67,6 +88,11 @@
       <Project>{0E618828-4AD6-4DCD-AAAC-0F2A03DFA312}</Project>
       <Name>POS.Repository</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -16,7 +16,7 @@ namespace POS.Repository.Base
             get { return Db.Set<T>(); }
         }
 
-        public Respository(DbContext db)
+        public Repository(DbContext db)
         {
            
             Db = db;

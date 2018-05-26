@@ -1,0 +1,2 @@
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.csprojAssemblyReference.cache
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.csproj.CoreCompileInputs.cache
