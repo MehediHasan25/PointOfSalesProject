@@ -41,12 +41,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseManager\Manager.cs" />
+    <Compile Include="ManagerRepositories\BranchManager.cs" />
+    <Compile Include="ManagerRepositories\EmployeeInfoManager.cs" />
+    <Compile Include="ManagerRepositories\ExpenseCategoryManager.cs" />
+    <Compile Include="ManagerRepositories\ExpenseDetailsManager.cs" />
+    <Compile Include="ManagerRepositories\ExpenseItemManager.cs" />
+    <Compile Include="ManagerRepositories\ExpenseManager.cs" />
+    <Compile Include="ManagerRepositories\ExpenseReportDetailsManager.cs" />
+    <Compile Include="ManagerRepositories\ExpenseReportManager.cs" />
+    <Compile Include="ManagerRepositories\IncomeReportDetailsManager.cs" />
+    <Compile Include="ManagerRepositories\IncomeReportManager.cs" />
+    <Compile Include="ManagerRepositories\ItemCategoryManager.cs" />
+    <Compile Include="ManagerRepositories\ItemManager.cs" />
+    <Compile Include="ManagerRepositories\OfficialInfoManager.cs" />
+    <Compile Include="ManagerRepositories\OrganizationsManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="ManagerRepositories\" />
-  </ItemGroup>
-  <ItemGroup>
+    <ProjectReference Include="..\POS.Models\POS.Models.csproj">
+      <Project>{2202C685-AEE0-4BBE-B23B-2AEB8FF8A969}</Project>
+      <Name>POS.Models</Name>
+    </ProjectReference>
     <ProjectReference Include="..\POS.Repository\POS.Repository.csproj">
       <Project>{0E618828-4AD6-4DCD-AAAC-0F2A03DFA312}</Project>
       <Name>POS.Repository</Name>
