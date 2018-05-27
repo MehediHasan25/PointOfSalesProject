@@ -22,8 +22,9 @@
     <div class="form-group">
         @Html.LabelFor(model => model.ParentId, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-        @Html.EditorFor(model => model.ParentId, new SelectList(Model.Parent as List<Parent> "Id", "Name")"..Select.."  , { htmlAttributes = new { @class = "form-control" } })
-        @Html.ValidationMessageFor(model => model.ParentId, "", new { @class = "text-danger" })
+            @Html.DropDownList("ParentCategory", new SelectList(from p in Model.Parent
+                                                                where p.ParentId == null
+                                                                select new { p.Id, p.Name, },"Id", "Name"), "Select . . .",new { @class = "form-control" })
         </div>
     </div>
 

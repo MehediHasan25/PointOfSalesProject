@@ -33,11 +33,14 @@ namespace PointOfSalesSystem.Controllers
 
         // POST: ItemCategory/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(ItemCategoryCreateVM model)
         {
             try
             {
-                // TODO: Add insert logic here
+                if(ModelState.IsValid)
+                {
+                    
+                }
 
                 return RedirectToAction("Index");
             }

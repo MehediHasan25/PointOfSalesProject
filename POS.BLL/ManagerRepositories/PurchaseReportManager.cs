@@ -12,7 +12,7 @@ namespace POS.BLL.ManagerRepositories
 {
     public class PurchaseReportManager : Manager<PurchaseReport>
     {
-        public PurchaseReportManager() : base(new PurchaseReportRepository)
+        public PurchaseReportManager() : base(new PurchaseReportRepository())
         {
 
         }

@@ -1,2 +1,17 @@
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.csprojAssemblyReference.cache
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.csproj.CoreCompileInputs.cache
+E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\obj\Debug\POS.BLL.csprojAssemblyReference.cache
+E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\obj\Debug\POS.BLL.csproj.CoreCompileInputs.cache
+E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\bin\Debug\POS.BLL.dll
+E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\bin\Debug\POS.BLL.pdb
+E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\bin\Debug\POS.Models.dll
+E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\bin\Debug\POS.Repository.dll
+E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\bin\Debug\EntityFramework.dll
+E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\bin\Debug\POS.Models.pdb
+E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\bin\Debug\POS.Models.dll.config
+E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\bin\Debug\POS.Repository.pdb
+E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\bin\Debug\POS.Repository.dll.config
+E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\bin\Debug\EntityFramework.xml
+E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\obj\Debug\POS.BLL.csproj.CopyComplete
+E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\obj\Debug\POS.BLL.dll
+E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\obj\Debug\POS.BLL.pdb

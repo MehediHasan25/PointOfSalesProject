@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace PointOfSalesSystem.Models.ViewModels
 {
@@ -19,9 +20,7 @@ namespace PointOfSalesSystem.Models.ViewModels
         
         //Item Category ParentId REFER
         public int? ParentId { get; set; }
-        public List<ItemCategory> Parent { get; set; }
 
-        
-       
+        public List<ItemCategory> Parent { get; set; }
     }
 }
