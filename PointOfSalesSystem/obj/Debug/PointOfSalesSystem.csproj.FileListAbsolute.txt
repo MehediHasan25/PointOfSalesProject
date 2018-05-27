@@ -134,19 +134,9 @@ E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\rosly
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\roslyn\vbc.rsp
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\roslyn\VBCSCompiler.exe
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\roslyn\VBCSCompiler.exe.config
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\EntityFramework.dll
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\EntityFramework.SqlServer.dll
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\Microsoft.Web.Infrastructure.dll
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\POS.BLL.dll
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\POS.Models.dll
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\POS.Repository.dll
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\System.Web.Helpers.dll
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\System.Web.Mvc.dll
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\System.Web.Razor.dll
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\System.Web.Webpages.Deployment.dll
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\System.Web.Webpages.dll
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\System.Web.Webpages.Razor.dll
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\POS.BLL.pdb
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\POS.Models.pdb
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\POS.Models.dll.config
@@ -166,3 +156,4 @@ G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.BLL.pdb
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\AutoMapper.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\AutoMapper.xml
+E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\AutoMapper.xml
