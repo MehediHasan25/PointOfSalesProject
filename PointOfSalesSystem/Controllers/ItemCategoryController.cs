@@ -1,5 +1,7 @@
-﻿using PointOfSalesSystem.Models.ViewModels;
+﻿using AutoMapper;
+using PointOfSalesSystem.Models.ViewModels;
 using POS.BLL.ManagerRepositories;
+using POS.Models.EntityModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,11 +12,13 @@ namespace PointOfSalesSystem.Controllers
 {
     public class ItemCategoryController : Controller
     {
-        ItemCategoryManager ItemCategoryManager = new ItemCategoryManager();  
+        ItemCategoryManager _itemCategoryManager = new ItemCategoryManager();  
         // GET: ItemCategory
         public ActionResult Index()
         {
-            return View();
+            var itemCategoryList = _itemCategoryManager.GetAll();
+
+            return View(itemCategoryList);
         }
 
         // GET: ItemCategory/Details/5
@@ -27,7 +31,7 @@ namespace PointOfSalesSystem.Controllers
         public ActionResult Create()
         {
             var model = new ItemCategoryCreateVM();
-            model.Parent = ItemCategoryManager.GetAll();
+            model.Parent = _itemCategoryManager.GetAll();
             return View(model);
         }
 
@@ -37,17 +41,27 @@ namespace PointOfSalesSystem.Controllers
         {
             try
             {
-                if(ModelState.IsValid)
+                if (ModelState.IsValid)
                 {
-                    
+
+                    var item = Mapper.Map<ItemCategory>(model);
+                    bool isSaved = _itemCategoryManager.Save(item);
+                    if (isSaved)
+                        return RedirectToAction("Index");
                 }
 
-                return RedirectToAction("Index");
             }
-            catch
+            catch (Exception exception)
             {
-                return View();
+                ModelState.AddModelError("", exception.Message);
+
+                var itemCategoryList = _itemCategoryManager.GetAll();
+                model.Parent = itemCategoryList;
+                return View(model);
             }
+            var itemCategory = _itemCategoryManager.GetAll();
+            model.Parent = itemCategory;
+            return View(model);
         }
 
         // GET: ItemCategory/Edit/5

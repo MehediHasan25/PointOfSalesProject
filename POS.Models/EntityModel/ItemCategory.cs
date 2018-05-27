@@ -13,6 +13,7 @@ namespace POS.Models.EntityModel
         public string  ItemCategoryCode { get; set; }
         public string Description { get; set; }
         public byte[] Image { get; set; }
+        
 
         //Item Category ParentId REFER
         public int? ParentId { get; set; }

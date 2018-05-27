@@ -25,6 +25,9 @@
             @Html.DropDownList("ParentCategory", new SelectList(from p in Model.Parent
                                                                 where p.ParentId == null
                                                                 select new { p.Id, p.Name, },"Id", "Name"), "Select . . .",new { @class = "form-control" })
+
+            @*@Html.DropDownList("ParentCategory", new SelectList(Model.Parent,"Id", "Name"), "Select . . .",new { @class = "form-control" })*@
+
         </div>
     </div>
 

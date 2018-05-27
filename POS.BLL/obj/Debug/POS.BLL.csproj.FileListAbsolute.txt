@@ -15,3 +15,16 @@ E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\bin\Debug\EntityFram
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\obj\Debug\POS.BLL.csproj.CopyComplete
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\obj\Debug\POS.BLL.dll
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\obj\Debug\POS.BLL.pdb
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\bin\Debug\POS.BLL.dll
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\bin\Debug\POS.BLL.pdb
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\bin\Debug\POS.Models.dll
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\bin\Debug\POS.Repository.dll
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\bin\Debug\EntityFramework.dll
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\bin\Debug\POS.Models.pdb
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\bin\Debug\POS.Models.dll.config
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\bin\Debug\POS.Repository.pdb
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\bin\Debug\POS.Repository.dll.config
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\bin\Debug\EntityFramework.xml
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.csproj.CopyComplete
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.dll
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.pdb
