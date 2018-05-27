@@ -31,7 +31,7 @@ namespace PointOfSalesSystem.Controllers
         public ActionResult Create()
         {
             var model = new ItemCategoryCreateVM();
-            model.Parent = _itemCategoryManager.GetAll();
+            model.Child = _itemCategoryManager.GetAll();
             return View(model);
         }
 
@@ -47,7 +47,7 @@ namespace PointOfSalesSystem.Controllers
                     var item = Mapper.Map<ItemCategory>(model);
                     bool isSaved = _itemCategoryManager.Save(item);
                     if (isSaved)
-                        return RedirectToAction("Index");
+                        return RedirectToAction("Create");
                 }
 
             }
@@ -56,11 +56,11 @@ namespace PointOfSalesSystem.Controllers
                 ModelState.AddModelError("", exception.Message);
 
                 var itemCategoryList = _itemCategoryManager.GetAll();
-                model.Parent = itemCategoryList;
+                model.Child = itemCategoryList;
                 return View(model);
             }
             var itemCategory = _itemCategoryManager.GetAll();
-            model.Parent = itemCategory;
+            model.Child = itemCategory;
             return View(model);
         }
 

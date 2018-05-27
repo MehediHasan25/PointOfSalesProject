@@ -21,6 +21,6 @@ namespace PointOfSalesSystem.Models.ViewModels
         //Item Category ParentId REFER
         public int? ParentId { get; set; }
 
-        public List<ItemCategory> Parent { get; set; }
+        public List<ItemCategory> Child { get; set; }
     }
 }

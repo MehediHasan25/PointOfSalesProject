@@ -22,7 +22,7 @@
     <div class="form-group">
         @Html.LabelFor(model => model.ParentId, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.DropDownList("ParentCategory", new SelectList(from p in Model.Parent
+            @Html.DropDownList("ParentId", new SelectList(from p in Model.Child
                                                                 where p.ParentId == null
                                                                 select new { p.Id, p.Name, },"Id", "Name"), "Select . . .",new { @class = "form-control" })
 
