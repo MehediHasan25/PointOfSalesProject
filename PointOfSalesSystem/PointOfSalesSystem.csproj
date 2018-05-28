@@ -212,6 +212,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BranchesController.cs" />
     <Compile Include="Controllers\ExpenseCategoryController.cs" />
+    <Compile Include="Controllers\ExpenseItemController.cs" />
     <Compile Include="Controllers\ItemCategoryController.cs" />
     <Compile Include="Controllers\ItemController.cs" />
     <Compile Include="Controllers\OrganizationsController.cs" />
@@ -220,6 +221,7 @@
     </Compile>
     <Compile Include="Models\ViewModels\BranchesCreateVM.cs" />
     <Compile Include="Models\ViewModels\ExpenseCategoryCreateVM.cs" />
+    <Compile Include="Models\ViewModels\ExpenseItemCreateVM.cs" />
     <Compile Include="Models\ViewModels\ItemCategoryCreateVM.cs" />
     <Compile Include="Models\ViewModels\ItemCreateVM.cs" />
     <Compile Include="Models\ViewModels\OrganizationsCreateVM.cs" />
@@ -239,6 +241,7 @@
     <Content Include="Views\Branches\Create.cshtml" />
     <Content Include="Views\Item\Create.cshtml" />
     <Content Include="Views\ExpenseCategory\Create.cshtml" />
+    <Content Include="Views\ExpenseItem\Create.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

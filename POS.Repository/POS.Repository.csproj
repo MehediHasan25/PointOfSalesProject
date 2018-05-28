@@ -49,13 +49,9 @@
   <ItemGroup>
     <Compile Include="Base\Repository.cs" />
     <Compile Include="DatabaseContext\PosManagementDbContext.cs" />
-    <Compile Include="Migrations\201805262042131_AfterCreatingVM.cs" />
-    <Compile Include="Migrations\201805262042131_AfterCreatingVM.Designer.cs">
-      <DependentUpon>201805262042131_AfterCreatingVM.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805281223059_OrganizationToOrganizations.cs" />
-    <Compile Include="Migrations\201805281223059_OrganizationToOrganizations.Designer.cs">
-      <DependentUpon>201805281223059_OrganizationToOrganizations.cs</DependentUpon>
+    <Compile Include="Migrations\201805281834182_ExpenseCategory_Added.cs" />
+    <Compile Include="Migrations\201805281834182_ExpenseCategory_Added.Designer.cs">
+      <DependentUpon>201805281834182_ExpenseCategory_Added.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
@@ -118,11 +114,8 @@
     <Folder Include="bin\Release\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201805262042131_AfterCreatingVM.resx">
-      <DependentUpon>201805262042131_AfterCreatingVM.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805281223059_OrganizationToOrganizations.resx">
-      <DependentUpon>201805281223059_OrganizationToOrganizations.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805281834182_ExpenseCategory_Added.resx">
+      <DependentUpon>201805281834182_ExpenseCategory_Added.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

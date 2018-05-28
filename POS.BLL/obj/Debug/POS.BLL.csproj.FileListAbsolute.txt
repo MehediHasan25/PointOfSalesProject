@@ -23,7 +23,6 @@ G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\bin\Debug\POS.M
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\bin\Debug\POS.Models.dll.config
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\bin\Debug\POS.Repository.pdb
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\bin\Debug\POS.Repository.dll.config
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\bin\Debug\EntityFramework.xml
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.csproj.CopyComplete
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.pdb

@@ -52,13 +52,6 @@ G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.Models.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.Models.pdb
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.Models.dll.config
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\System.Web.Razor.xml
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\System.Web.Webpages.xml
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\System.Web.Webpages.Deployment.xml
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\System.Web.Webpages.Razor.xml
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\System.Web.Helpers.xml
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\System.Web.Mvc.xml
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\obj\Debug\PointOfSalesSystem.csprojAssemblyReference.cache
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\obj\Debug\PointOfSalesSystem.csproj.CoreCompileInputs.cache
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\obj\Debug\PointOfSalesSystem.csproj.CopyComplete
@@ -67,8 +60,6 @@ G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\obj\
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.Repository.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.Repository.pdb
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.Repository.dll.config
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\EntityFramework.xml
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\EntityFramework.SqlServer.xml
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\obj\Debug\PointOfSalesSystem.csprojAssemblyReference.cache
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\obj\Debug\PointOfSalesSystem.csproj.CoreCompileInputs.cache
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\obj\Debug\PointOfSalesSystem.dll
@@ -135,4 +126,3 @@ E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\POS.R
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\obj\Debug\PointOfSalesSystem.csproj.CopyComplete
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.BLL.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.BLL.pdb
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\AutoMapper.xml

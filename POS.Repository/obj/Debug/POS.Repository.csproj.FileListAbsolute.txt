@@ -4,15 +4,11 @@ G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\bin\Debu
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Models.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Models.pdb
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Models.dll.config
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\bin\Debug\EntityFramework.xml
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\bin\Debug\EntityFramework.SqlServer.xml
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csprojAssemblyReference.cache
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.CoreCompileInputs.cache
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.CopyComplete
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.pdb
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.AfterCreatingVM.resources
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\bin\Debug\POS.Repository.dll.config
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\bin\Debug\POS.Repository.dll
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\bin\Debug\POS.Repository.pdb
@@ -27,3 +23,5 @@ E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.dll
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.pdb
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.Migrations.OrganizationToOrganizations.resources
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.ExpenseCategory_Added.resources
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
