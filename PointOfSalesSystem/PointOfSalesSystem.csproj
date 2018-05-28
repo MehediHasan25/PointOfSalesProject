@@ -232,7 +232,7 @@
     <Content Include="Views\ItemCategory\Create.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Organizations\Create.cshtml" />
-    <Content Include="Views\Branches\BranchCreate.cshtml" />
+    <Content Include="Views\Branches\Create.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -243,7 +243,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="obj\Debug\TempPE\" />
-    <Folder Include="Views\CreateItemCategory\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\POS.BLL\POS.BLL.csproj">

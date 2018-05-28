@@ -28,3 +28,4 @@ E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.csproj.CopyComplete
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.dll
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.pdb
+E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.Migrations.OrganizationToOrganizations.resources

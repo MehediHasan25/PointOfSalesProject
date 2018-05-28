@@ -27,17 +27,17 @@ namespace PointOfSalesSystem.Controllers
         }
 
         // GET: Branches/Create
-        public ActionResult BranchCreate()
+        public ActionResult Create()
         {
             var model = new BranchesCreateVM();
             var organizations = _organizationsManager.GetAll();
-            model.Organization = organizations;
+            model.Organizationses = organizations;
             return View(model);
         }
 
         // POST: Branches/Create
         [HttpPost]
-        public ActionResult BranchCreate(BranchesCreateVM model)
+        public ActionResult Create(BranchesCreateVM model)
         {
             try
             {
@@ -57,12 +57,12 @@ namespace PointOfSalesSystem.Controllers
 
                 
                 var list = _organizationsManager.GetAll();
-                model.Organization = list;
+                model.Organizationses = list;
                 return View(model);
             }
             
             var organizations = _organizationsManager.GetAll();
-            model.Organization = organizations;
+            model.Organizationses = organizations;
             return View(model);
         }
 

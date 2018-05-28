@@ -14,8 +14,8 @@ namespace POS.Models.EntityModel
         public string ContactNo { get; set; }
         public string Address { get; set; }
 
-        public int? OrganizationId { get; set; }
-        public virtual Organizations Organization { get; set; }
+        public int? OrganizationsId { get; set; }
+        public virtual Organizations Organizations { get; set; }
 
         public List<Expense> Expenses { get; set; }
         public List<Sales> Saleses { get; set; }
