@@ -47,7 +47,7 @@ namespace PointOfSalesSystem.Controllers
                     var item = Mapper.Map<ItemCategory>(model);
                     bool isSaved = _itemCategoryManager.Save(item);
                     if (isSaved)
-                        return RedirectToAction("Create");
+                        return RedirectToAction("Index");
                 }
 
             }

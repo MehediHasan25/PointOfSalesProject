@@ -49,15 +49,7 @@ G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\roslyn\vbc.rsp
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\roslyn\VBCSCompiler.exe
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\roslyn\VBCSCompiler.exe.config
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\Microsoft.Web.Infrastructure.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.Models.dll
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\System.Web.Helpers.dll
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\System.Web.Mvc.dll
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\System.Web.Razor.dll
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\System.Web.Webpages.Deployment.dll
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\System.Web.Webpages.dll
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\System.Web.Webpages.Razor.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.Models.pdb
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.Models.dll.config
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\System.Web.Razor.xml
@@ -72,8 +64,6 @@ G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\obj\
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\obj\Debug\PointOfSalesSystem.csproj.CopyComplete
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\obj\Debug\PointOfSalesSystem.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\obj\Debug\PointOfSalesSystem.pdb
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\EntityFramework.dll
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\EntityFramework.SqlServer.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.Repository.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.Repository.pdb
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.Repository.dll.config
@@ -154,6 +144,5 @@ E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\Micro
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\obj\Debug\PointOfSalesSystem.csproj.CopyComplete
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.BLL.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.BLL.pdb
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\AutoMapper.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\AutoMapper.xml
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\AutoMapper.xml

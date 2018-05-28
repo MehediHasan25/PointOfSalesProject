@@ -21,6 +21,9 @@ namespace PointOfSalesSystem
             {
                 cfg.CreateMap<ItemCategoryCreateVM, ItemCategory>();
                 cfg.CreateMap<ItemCategory, ItemCategoryCreateVM>();
+
+                cfg.CreateMap<OrganizationsCreateVM, Organizations>();
+                cfg.CreateMap<Organizations, OrganizationsCreateVM>();
             }
              );
         }

@@ -38,6 +38,6 @@ namespace POS.Repository.DatabaseContext
         public DbSet<IncomeReport> IncomeReports { get; set; }
         public DbSet<IncomeReportDetails> IncomeReportDetailses { get; set; }
 
-
+        
     }
 }
