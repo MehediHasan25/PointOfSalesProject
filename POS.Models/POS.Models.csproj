@@ -59,10 +59,8 @@
     <Compile Include="EntityModel\IncomeReportDetails.cs" />
     <Compile Include="EntityModel\Item.cs" />
     <Compile Include="EntityModel\ItemCategory.cs" />
-    <Compile Include="EntityModel\OfficialInfo.cs" />
     <Compile Include="EntityModel\Organizations.cs" />
     <Compile Include="EntityModel\Party.cs" />
-    <Compile Include="EntityModel\PersonalInfo.cs" />
     <Compile Include="EntityModel\PurchaseReceiving.cs" />
     <Compile Include="EntityModel\PurchaseReceivingDetails.cs" />
     <Compile Include="EntityModel\PurchaseReport.cs" />

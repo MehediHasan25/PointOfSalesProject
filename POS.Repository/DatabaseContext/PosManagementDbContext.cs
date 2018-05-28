@@ -13,8 +13,7 @@ namespace POS.Repository.DatabaseContext
         public DbSet<Organizations> Organizationses { get; set; }
         public DbSet<Branch> Branches { get; set; }
         public DbSet<EmployeeInfo> EmployeeInfoes { get; set; }
-        public DbSet<OfficialInfo> OfficialInfoes { get; set; }
-        public DbSet<PersonalInfo> PersonalInfoes { get; set; }
+        
         public DbSet<Expense> Expenses { get; set; }
         public DbSet<ExpenseCategory> ExpenseCategories { get; set; }
         public DbSet<ExpenseDetails> ExpenseDetailses { get; set; }

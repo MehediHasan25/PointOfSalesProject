@@ -50,9 +50,10 @@ namespace PointOfSalesSystem.Controllers
 
                 return RedirectToAction("Create");
             }
-            catch
+            catch(Exception exception)
             {
-                return View();
+                ModelState.AddModelError("", exception.Message);
+                return View(model);
             }
         }
 

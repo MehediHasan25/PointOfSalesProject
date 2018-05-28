@@ -53,10 +53,8 @@
     <Compile Include="ManagerRepositories\IncomeReportManager.cs" />
     <Compile Include="ManagerRepositories\ItemCategoryManager.cs" />
     <Compile Include="ManagerRepositories\ItemManager.cs" />
-    <Compile Include="ManagerRepositories\OfficialInfoManager.cs" />
     <Compile Include="ManagerRepositories\OrganizationsManager.cs" />
     <Compile Include="ManagerRepositories\PartyManager.cs" />
-    <Compile Include="ManagerRepositories\PersonalInfoManager.cs" />
     <Compile Include="ManagerRepositories\PurchaseReceivingDetailsManager.cs" />
     <Compile Include="ManagerRepositories\PurchaseReceivingManager.cs" />
     <Compile Include="ManagerRepositories\PurchaseReportDetailsManager.cs" />

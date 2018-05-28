@@ -53,6 +53,10 @@
     <Compile Include="Migrations\201805281834182_ExpenseCategory_Added.Designer.cs">
       <DependentUpon>201805281834182_ExpenseCategory_Added.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805282104320_SingleEmployeeInfoAdded.cs" />
+    <Compile Include="Migrations\201805282104320_SingleEmployeeInfoAdded.Designer.cs">
+      <DependentUpon>201805282104320_SingleEmployeeInfoAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
@@ -70,10 +74,8 @@
     <Compile Include="Repositories\IncomeReportRepository.cs" />
     <Compile Include="Repositories\ItemCategoryRepository.cs" />
     <Compile Include="Repositories\ItemRepository.cs" />
-    <Compile Include="Repositories\OfficialInfoRepository.cs" />
     <Compile Include="Repositories\OrganizationsRepository.cs" />
     <Compile Include="Repositories\PartyRepository.cs" />
-    <Compile Include="Repositories\PersonalInfoRepository.cs" />
     <Compile Include="Repositories\PurchaseReceivingDetailsRepository.cs" />
     <Compile Include="Repositories\PurchaseReceivingRepository.cs" />
     <Compile Include="Repositories\PurchaseReportDetailsRepository.cs" />
@@ -116,6 +118,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201805281834182_ExpenseCategory_Added.resx">
       <DependentUpon>201805281834182_ExpenseCategory_Added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805282104320_SingleEmployeeInfoAdded.resx">
+      <DependentUpon>201805282104320_SingleEmployeeInfoAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

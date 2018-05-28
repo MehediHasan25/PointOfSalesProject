@@ -1,8 +1,6 @@
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Models\bin\Debug\POS.Models.dll.config
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Models\bin\Debug\POS.Models.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Models\bin\Debug\POS.Models.pdb
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Models\bin\Debug\EntityFramework.xml
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Models\bin\Debug\EntityFramework.SqlServer.xml
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.csprojAssemblyReference.cache
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.csproj.CoreCompileInputs.cache
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.csproj.CopyComplete
