@@ -216,7 +216,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\ViewModels\BranchCreateVM.cs" />
+    <Compile Include="Models\ViewModels\BranchesCreateVM.cs" />
     <Compile Include="Models\ViewModels\ItemCategoryCreateVM.cs" />
     <Compile Include="Models\ViewModels\OrganizationsCreateVM.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
