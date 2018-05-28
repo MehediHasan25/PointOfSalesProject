@@ -132,17 +132,7 @@ E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\POS.M
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\POS.Models.dll.config
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\POS.Repository.pdb
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\POS.Repository.dll.config
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\EntityFramework.xml
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\EntityFramework.SqlServer.xml
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\System.Web.Razor.xml
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\System.Web.Webpages.xml
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\System.Web.Webpages.Deployment.xml
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\System.Web.Webpages.Razor.xml
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\System.Web.Helpers.xml
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\System.Web.Mvc.xml
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\obj\Debug\PointOfSalesSystem.csproj.CopyComplete
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.BLL.dll
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\POS.BLL.pdb
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\PointOfSalesSystem\bin\AutoMapper.xml
-E:\Random Codes And Sample Work\PointOfSalesProject\PointOfSalesSystem\bin\AutoMapper.xml

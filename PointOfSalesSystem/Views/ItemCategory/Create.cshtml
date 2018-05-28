@@ -14,11 +14,11 @@
 <div class="form-horizontal">
     <h4>ItemCategoryCreateVM</h4>
     <hr />
-    @Html.RadioButton("RadioButton", "Root")  Root Category
-    @Html.RadioButton("RadioButton", "Child") Child Category
+
 
     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-
+    @Html.RadioButton("RadioButton", "Root")  Root Category
+    @Html.RadioButton("RadioButton", "Child") Child Category
     <div class="form-group">
         @Html.LabelFor(model => model.ParentId, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
@@ -63,7 +63,7 @@
         </div>
     </div>
 
-    
+
 
     <div class="form-group">
         <div class="col-md-offset-2 col-md-10">

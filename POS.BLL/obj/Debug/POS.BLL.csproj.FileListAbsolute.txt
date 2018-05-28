@@ -11,7 +11,6 @@ E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\bin\Debug\POS.Models
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\bin\Debug\POS.Models.dll.config
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\bin\Debug\POS.Repository.pdb
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\bin\Debug\POS.Repository.dll.config
-E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\bin\Debug\EntityFramework.xml
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\obj\Debug\POS.BLL.csproj.CopyComplete
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\obj\Debug\POS.BLL.dll
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.BLL\obj\Debug\POS.BLL.pdb
