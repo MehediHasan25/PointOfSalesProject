@@ -15,7 +15,7 @@ namespace PointOfSalesSystem.Controllers
         PurchaseReceivingManager _purchaseReceivingManager = new PurchaseReceivingManager();
         BranchManager _branchManager = new BranchManager();
         EmployeeInfoManager _employeeInfoManager = new EmployeeInfoManager();
-        ItemManager _itemManager = new ItemManager();
+        ItemManager _itemManager = new ItemManager(); //item Manager for dropdown
         // GET: PurchaseReceiving
         public ActionResult Index()
         {
