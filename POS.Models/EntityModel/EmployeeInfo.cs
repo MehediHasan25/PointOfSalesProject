@@ -25,7 +25,7 @@ namespace POS.Models.EntityModel
         public string Email { get; set; }
         public byte[] Image { get; set; }
 
-        public int EmployeeInfosId { get; set; }
+        public int? EmployeeInfosId { get; set; }
         public EmployeeInfo EmployeeInfos { get; set; }
 
 

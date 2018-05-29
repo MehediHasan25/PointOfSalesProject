@@ -1,0 +1,26 @@
+1.EmployeeInfo ---- view model + Controller (Hide)
+
+2.Sales 
+
+3.Expense
+
+4.Stock
+
+jquery
+_______________
+Expense Category(Radio Button) Item Category(Radio Button) , Employee Info(Button + hide)
+
+Normal Table- ExpenseCategory etc
+
+Ajax Work
+
+Sales(Outlet against Employee) 
+Expense(Outlet against Employee)  
+Purchase(Outlet against Employee and Supplier ) 
+
+Ajax Table: Sales, Expense & Purchase
+
+
+Important task :    CostPriceAddition should need to do
+
+

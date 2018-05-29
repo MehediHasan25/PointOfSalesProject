@@ -7,13 +7,13 @@ namespace POS.Repository.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class PurchaseReciving : IMigrationMetadata
+    public sealed partial class initial_database : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(PurchaseReciving));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(initial_database));
         
         string IMigrationMetadata.Id
         {
-            get { return "201805291153363_PurchaseReciving"; }
+            get { return "201805291957019_initial_database"; }
         }
         
         string IMigrationMetadata.Source
