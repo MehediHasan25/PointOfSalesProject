@@ -1,4 +1,8 @@
-﻿using System;
+﻿using AutoMapper;
+using PointOfSalesSystem.Models.ViewModels;
+using POS.BLL.ManagerRepositories;
+using POS.Models.EntityModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +12,10 @@ namespace PointOfSalesSystem.Controllers
 {
     public class PurchaseReceivingController : Controller
     {
+        PurchaseReceivingManager _purchaseReceivingManager = new PurchaseReceivingManager();
+        BranchManager _branchManager = new BranchManager();
+        EmployeeInfoManager _employeeInfoManager = new EmployeeInfoManager();
+        ItemManager _itemManager = new ItemManager();
         // GET: PurchaseReceiving
         public ActionResult Index()
         {
@@ -23,23 +31,53 @@ namespace PointOfSalesSystem.Controllers
         // GET: PurchaseReceiving/Create
         public ActionResult Create()
         {
-            return View();
+            var model = new PurchaseReceivingCreateVM();
+            var item = _itemManager.GetAll();
+            model.Items = item;
+            var branch = _branchManager.GetAll();
+            model.Branches = branch;
+            var employeeInfo = _employeeInfoManager.GetAll();
+            model.EmployeeInfoes = employeeInfo;
+            return View(model);
         }
 
         // POST: PurchaseReceiving/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(PurchaseReceivingCreateVM model)
         {
             try
             {
-                // TODO: Add insert logic here
+                if (ModelState.IsValid)
+                {
 
-                return RedirectToAction("Index");
+                    var purchaseReceiving = Mapper.Map<PurchaseReceiving>(model);
+                    bool isSaved = _purchaseReceivingManager.Save(purchaseReceiving);
+                    if (isSaved)
+                        return RedirectToAction("Create");
+                }
+
             }
-            catch
+            catch (Exception exception)
             {
-                return View();
+                ModelState.AddModelError("", exception.Message);
+
+
+                var itemList = _itemManager.GetAll();
+                model.Items = itemList;
+                var branchList = _branchManager.GetAll();
+                model.Branches = branchList;
+                var employeeInfoList = _employeeInfoManager.GetAll();
+                model.EmployeeInfoes = employeeInfoList;
+                return View(model);
             }
+
+            var item = _itemManager.GetAll();
+            model.Items = item;
+            var branch = _branchManager.GetAll();
+            model.Branches = branch;
+            var employeeInfo = _employeeInfoManager.GetAll();
+            model.EmployeeInfoes = employeeInfo;
+            return View(model);
         }
 
         // GET: PurchaseReceiving/Edit/5

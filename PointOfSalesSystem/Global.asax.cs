@@ -40,6 +40,10 @@ namespace PointOfSalesSystem
                 cfg.CreateMap<PartyCreateVM, Party>();
                 cfg.CreateMap<Party, PartyCreateVM>();
 
+                cfg.CreateMap<PurchaseReceivingCreateVM, PurchaseReceiving>();
+                cfg.CreateMap<PurchaseReceiving, PurchaseReceivingCreateVM>();
+
+
             }
              );
         }

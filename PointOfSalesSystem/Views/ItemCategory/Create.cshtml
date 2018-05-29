@@ -1,5 +1,5 @@
 ﻿@model PointOfSalesSystem.Models.ViewModels.ItemCategoryCreateVM
-@using PointOfSalesSystem.Models.ViewModels;
+
 @using POS.Models.EntityModel;
 
 @{
@@ -99,9 +99,11 @@
         <tr>
             @foreach (ItemCategory itemCategory in Model.Child)
             {
-                <tr>
-                    <td>@itemCategory.Name</td>
-                </tr>
+        <tr>
+
+            <td>@itemCategory.Name</td>
+            <td>@itemCategory.ItemCategoryCode</td>
+        </tr>
 
             }
             </tr>
