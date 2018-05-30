@@ -25,3 +25,16 @@ G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debu
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.Migrations.initial_database.resources
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.Migrations.EmployeeInfoClassUpdated.resources
+D:\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Repository.dll.config
+D:\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Repository.dll
+D:\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Repository.pdb
+D:\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Models.dll
+D:\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Models.pdb
+D:\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Models.dll.config
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csprojAssemblyReference.cache
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.CoreCompileInputs.cache
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.CopyComplete
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.dll
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.pdb
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.initial.resources
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache

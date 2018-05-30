@@ -14,3 +14,11 @@ E:\Random Codes And Sample Work\PointOfSalesProject\POS.Models\obj\Debug\POS.Mod
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Models\obj\Debug\POS.Models.csproj.CopyComplete
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Models\obj\Debug\POS.Models.dll
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Models\obj\Debug\POS.Models.pdb
+D:\PointOfSalesSystem\POS.Models\bin\Debug\POS.Models.dll.config
+D:\PointOfSalesSystem\POS.Models\bin\Debug\POS.Models.dll
+D:\PointOfSalesSystem\POS.Models\bin\Debug\POS.Models.pdb
+D:\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.csprojAssemblyReference.cache
+D:\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.csproj.CoreCompileInputs.cache
+D:\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.csproj.CopyComplete
+D:\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.dll
+D:\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.pdb
