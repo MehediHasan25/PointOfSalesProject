@@ -37,5 +37,6 @@ namespace POS.Repository.DatabaseContext
         public DbSet<IncomeReport> IncomeReports { get; set; }
         public DbSet<IncomeReportDetails> IncomeReportDetailses { get; set; }
 
+        public System.Data.Entity.DbSet<PointOfSalesSystem.Models.ViewModels.ExpenseCreateVM> ExpenseCreateVMs { get; set; }
     }
 }

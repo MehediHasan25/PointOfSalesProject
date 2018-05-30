@@ -21,7 +21,6 @@ E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.csproj.CopyComplete
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.dll
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.pdb
-G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.initial_database.resources
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.Migrations.initial_database.resources
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.Migrations.EmployeeInfoClassUpdated.resources
@@ -38,3 +37,4 @@ D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.dll
 D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.pdb
 D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.initial.resources
 D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
+G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.initial.resources
