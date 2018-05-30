@@ -16,10 +16,12 @@ namespace PointOfSalesSystem.Models.ViewModels
         public long SalesTotalAmount { get; set; }
 
 
+        //item referenece
+        public int? ItemId { get; set; }
+        public List<Item> Items { get; set; }
 
         //Customer Refered
         public int? PartyId { get; set; }
-        public Party Party { get; set; }
 
         //Branch Refered
         public int? BranchId { get; set; }

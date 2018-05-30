@@ -16,8 +16,12 @@ namespace POS.Models.EntityModel
         public int Dicount { get; set; }
         public long SalesTotalAmount { get; set; }
 
-        
-        
+
+
+        //item Reference
+        public int? ItemId { get; set; }
+        public Item Item { get; set; }
+
         //Customer Refered
         public int? PartyId { get; set; }
         public Party Party { get; set; }
