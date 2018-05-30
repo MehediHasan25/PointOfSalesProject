@@ -211,6 +211,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BranchesController.cs" />
+    <Compile Include="Controllers\EmployeeInfoController.cs" />
     <Compile Include="Controllers\ExpenseCategoryController.cs" />
     <Compile Include="Controllers\ExpenseItemController.cs" />
     <Compile Include="Controllers\ItemCategoryController.cs" />
@@ -259,6 +260,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="Views\EmployeeInfo\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\POS.BLL\POS.BLL.csproj">
