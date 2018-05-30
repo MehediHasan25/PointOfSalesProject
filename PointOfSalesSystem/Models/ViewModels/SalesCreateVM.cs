@@ -14,6 +14,9 @@ namespace PointOfSalesSystem.Models.ViewModels
         public int VAT { get; set; }
         public int Dicount { get; set; }
         public long SalesTotalAmount { get; set; }
+        public double SalePrice { get; set; }
+
+        public int Quantity { get; set; }
 
 
         //item referenece
