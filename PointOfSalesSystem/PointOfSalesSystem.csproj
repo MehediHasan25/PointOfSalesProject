@@ -250,6 +250,7 @@
     <Content Include="Views\ExpenseItem\Create.cshtml" />
     <Content Include="Views\Party\Create.cshtml" />
     <Content Include="Views\PurchaseReceiving\Create.cshtml" />
+    <Content Include="Views\EmployeeInfo\Create.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -260,7 +261,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="obj\Debug\TempPE\" />
-    <Folder Include="Views\EmployeeInfo\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\POS.BLL\POS.BLL.csproj">

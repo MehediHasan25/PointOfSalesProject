@@ -43,6 +43,9 @@ namespace PointOfSalesSystem
                 cfg.CreateMap<PurchaseReceivingCreateVM, PurchaseReceiving>();
                 cfg.CreateMap<PurchaseReceiving, PurchaseReceivingCreateVM>();
 
+                cfg.CreateMap<EmployeeInfoCreateVM, EmployeeInfo>();
+                cfg.CreateMap<EmployeeInfo, EmployeeInfoCreateVM>();
+
 
             }
              );

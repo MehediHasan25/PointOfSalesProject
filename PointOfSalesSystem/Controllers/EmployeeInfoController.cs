@@ -1,4 +1,8 @@
-﻿using System;
+﻿using AutoMapper;
+using PointOfSalesSystem.Models.ViewModels;
+using POS.BLL.ManagerRepositories;
+using POS.Models.EntityModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +12,8 @@ namespace PointOfSalesSystem.Controllers
 {
     public class EmployeeInfoController : Controller
     {
+        BranchManager _branchManager = new BranchManager();
+        EmployeeInfoManager _employeeInfoManager = new EmployeeInfoManager();
         // GET: EmployeeInfo
         public ActionResult Index()
         {
@@ -23,22 +29,36 @@ namespace PointOfSalesSystem.Controllers
         // GET: EmployeeInfo/Create
         public ActionResult Create()
         {
-            return View();
+            var model = new EmployeeInfoCreateVM();
+            model.Branches = _branchManager.GetAll();
+            model.EmployeeInfoses = _employeeInfoManager.GetAll();
+            return View(model);
         }
 
         // POST: EmployeeInfo/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(EmployeeInfoCreateVM model)
         {
             try
             {
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
+                if(ModelState.IsValid)
+                {
+                    var EmployeeInfo = Mapper.Map<EmployeeInfo>(model);
+                    bool IsSaved = _employeeInfoManager.Save(EmployeeInfo);
+                    if(IsSaved)
+                    {
+                        RedirectToAction("Create");
+                    }
+                }
+                
+                return RedirectToAction("Create");
             }
-            catch
+            catch(Exception exception)
             {
-                return View();
+                ModelState.AddModelError("", exception.Message);
+                model.Branches = _branchManager.GetAll();
+                model.EmployeeInfoses = _employeeInfoManager.GetAll();
+                return View(model);
             }
         }
 
