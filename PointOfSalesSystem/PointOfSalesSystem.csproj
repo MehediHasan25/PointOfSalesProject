@@ -222,6 +222,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\ViewModels\BranchesCreateVM.cs" />
+    <Compile Include="Models\ViewModels\EmployeeInfoCreateVM.cs" />
     <Compile Include="Models\ViewModels\ExpenseCategoryCreateVM.cs" />
     <Compile Include="Models\ViewModels\ExpenseItemCreateVM.cs" />
     <Compile Include="Models\ViewModels\ItemCategoryCreateVM.cs" />

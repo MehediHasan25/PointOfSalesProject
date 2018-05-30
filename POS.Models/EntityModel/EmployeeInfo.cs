@@ -20,6 +20,8 @@ namespace POS.Models.EntityModel
         //Official Info
        
         public string Name { get; set; }
+        public string Code { get; set;}
+        public string ContactNo { get; set; }
         public string JoiningDate { get; set; }
         public string PersonalContactNo { get; set; }
         public string Email { get; set; }
