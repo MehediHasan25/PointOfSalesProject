@@ -211,6 +211,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BranchesController.cs" />
+    <Compile Include="Controllers\EmployeeInfoController.cs" />
     <Compile Include="Controllers\ExpenseCategoryController.cs" />
     <Compile Include="Controllers\ExpenseItemController.cs" />
     <Compile Include="Controllers\ItemCategoryController.cs" />
@@ -222,6 +223,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\ViewModels\BranchesCreateVM.cs" />
+    <Compile Include="Models\ViewModels\EmployeeInfoCreateVM.cs" />
     <Compile Include="Models\ViewModels\ExpenseCategoryCreateVM.cs" />
     <Compile Include="Models\ViewModels\ExpenseItemCreateVM.cs" />
     <Compile Include="Models\ViewModels\ItemCategoryCreateVM.cs" />
@@ -248,6 +250,7 @@
     <Content Include="Views\ExpenseItem\Create.cshtml" />
     <Content Include="Views\Party\Create.cshtml" />
     <Content Include="Views\PurchaseReceiving\Create.cshtml" />
+    <Content Include="Views\EmployeeInfo\Create.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
