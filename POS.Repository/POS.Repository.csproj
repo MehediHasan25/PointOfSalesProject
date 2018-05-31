@@ -49,17 +49,9 @@
   <ItemGroup>
     <Compile Include="Base\Repository.cs" />
     <Compile Include="DatabaseContext\PosManagementDbContext.cs" />
-    <Compile Include="Migrations\201805301201190_salesItemAdded.cs" />
-    <Compile Include="Migrations\201805301201190_salesItemAdded.Designer.cs">
-      <DependentUpon>201805301201190_salesItemAdded.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805301828417_QuantitySales.cs" />
-    <Compile Include="Migrations\201805301828417_QuantitySales.Designer.cs">
-      <DependentUpon>201805301828417_QuantitySales.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805301852513_SalePrice.cs" />
-    <Compile Include="Migrations\201805301852513_SalePrice.Designer.cs">
-      <DependentUpon>201805301852513_SalePrice.cs</DependentUpon>
+    <Compile Include="Migrations\201805310717382_initial.cs" />
+    <Compile Include="Migrations\201805310717382_initial.Designer.cs">
+      <DependentUpon>201805310717382_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
@@ -120,14 +112,8 @@
     <Folder Include="bin\Release\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201805301201190_salesItemAdded.resx">
-      <DependentUpon>201805301201190_salesItemAdded.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805301828417_QuantitySales.resx">
-      <DependentUpon>201805301828417_QuantitySales.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805301852513_SalePrice.resx">
-      <DependentUpon>201805301852513_SalePrice.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805310717382_initial.resx">
+      <DependentUpon>201805310717382_initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

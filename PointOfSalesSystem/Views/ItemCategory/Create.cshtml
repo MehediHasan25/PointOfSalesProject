@@ -13,14 +13,27 @@
 {
     @Html.AntiForgeryToken()
 
-    <div class="form-horizontal">
-        <h4>ItemCategoryCreateVM</h4>
-        <hr />
+<div class="form-horizontal">
+    <h4>ItemCategoryCreateVM</h4>
+    <hr />
 
 
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        @Html.RadioButton("RadioButton", "Root")  Root Category
-        @Html.RadioButton("RadioButton", "Child") Child Category
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class=" form-group row">
+        <div class="col-md-6">
+            <div class="col-md-3">
+                <input type="radio" name="lang_anz" value="1" checked="checked"> Root<br>
+
+            </div>
+            <div class="col-md-3">
+                <input type="radio" name="lang_anz" value="0"> Child<br>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="Add1">
         <div class="form-group">
             @Html.LabelFor(model => model.ParentId, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
@@ -32,47 +45,47 @@
 
             </div>
         </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.ItemCategoryCode, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.ItemCategoryCode, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.ItemCategoryCode, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.Image, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Image, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Image, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-
-
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
-            </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
         </div>
     </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ItemCategoryCode, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.ItemCategoryCode, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.ItemCategoryCode, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Image, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Image, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Image, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </div>
+</div>
 }
 
 <table class="table table-bordered table-condensed table-hover table-responsive table-striped">
@@ -108,48 +121,48 @@
         @{
             int sl = 0;
         }
-        
-            @foreach (ItemCategory itemCategory in Model.Child)
-            {
-        <tr>
-            <td>@(++sl)</td>
 
-            @if (itemCategory.ParentId == null)
-            {
-                <td>
-                    Parent
-                </td>
-                <td>
-                    @(itemCategory.Name)
-                </td>
-            }
-            else
-            {
-                <td>
-                    Child
-                </td>
-                <td>
-                    @((from p in Model.Child
-                       where p.Id == itemCategory.ParentId
-                       select new { p.Name }).First())
-                </td>
-            }
+        @foreach (ItemCategory itemCategory in Model.Child)
+        {
+            <tr>
+                <td>@(++sl)</td>
 
-            <td>@(itemCategory.Name )</td>
+                @if (itemCategory.ParentId == null)
+                {
+                    <td>
+                        Parent
+                    </td>
+                    <td>
+                        @(itemCategory.Name)
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        Child
+                    </td>
+                    <td>
+                        @((from p in Model.Child
+                                   where p.Id == itemCategory.ParentId
+                                   select new { p.Name }).First())
+                    </td>
+                }
 
-            <td>@(itemCategory.ItemCategoryCode )</td>
+                <td>@(itemCategory.Name )</td>
 
-            <td>@(itemCategory.Description )</td>
+                <td>@(itemCategory.ItemCategoryCode )</td>
 
-            <td>@(itemCategory.Image )</td>
+                <td>@(itemCategory.Description )</td>
 
-            <td>Action</td>
+                <td>@(itemCategory.Image )</td>
 
-        </tr>
+                <td>Action</td>
+
+            </tr>
         }
-        
-         
-        </tbody>
+
+
+    </tbody>
 
 </table>
 
@@ -160,3 +173,11 @@
 <script src="~/Scripts/jquery-1.10.2.min.js"></script>
 <script src="~/Scripts/jquery.validate.min.js"></script>
 <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+@section scripts
+    {
+
+
+    <script src="~/Scripts/ItemCategory/ItemCategoryRadio.js"></script>
+}
+

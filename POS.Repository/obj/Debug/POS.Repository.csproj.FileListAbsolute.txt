@@ -32,10 +32,10 @@ D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.CoreCompile
 D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.CopyComplete
 D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.dll
 D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.pdb
-D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.initial.resources
-D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.initial.resources
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.Migrations.salesItemAdded.resources
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.Migrations.QuantitySales.resources
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.Migrations.SalePrice.resources
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.initial.resources
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache

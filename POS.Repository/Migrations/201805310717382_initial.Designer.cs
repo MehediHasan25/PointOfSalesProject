@@ -7,13 +7,13 @@ namespace POS.Repository.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class SalePrice : IMigrationMetadata
+    public sealed partial class initial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(SalePrice));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(initial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201805301852513_SalePrice"; }
+            get { return "201805310717382_initial"; }
         }
         
         string IMigrationMetadata.Source

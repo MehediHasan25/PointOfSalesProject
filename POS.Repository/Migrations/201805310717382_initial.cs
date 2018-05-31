@@ -3,7 +3,7 @@ namespace POS.Repository.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class salesItemAdded : DbMigration
+    public partial class initial : DbMigration
     {
         public override void Up()
         {
@@ -348,6 +348,8 @@ namespace POS.Repository.Migrations
                         VAT = c.Int(nullable: false),
                         Dicount = c.Int(nullable: false),
                         SalesTotalAmount = c.Long(nullable: false),
+                        SalePrice = c.Double(nullable: false),
+                        Quantity = c.Int(nullable: false),
                         ItemId = c.Int(),
                         PartyId = c.Int(),
                         BranchId = c.Int(),
