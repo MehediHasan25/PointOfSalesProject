@@ -15,5 +15,15 @@ namespace POS.Repository.Repositories
         public EmployeeInfoRepository() : base(new PosManagementDbContext())
         {
         }
+
+        public PosManagementDbContext Context
+        {
+            get {
+                return (PosManagementDbContext)Db;
+                 }
+                
+         }
+
+
     }
 }

@@ -12,6 +12,11 @@ namespace POS.BLL.ManagerRepositories
 {
     public class EmployeeInfoManager : Manager<EmployeeInfo>
     {
+        private EmployeeInfoRepository EmployeeInfoRepository
+        {
+            get { return (EmployeeInfoRepository)Repository; }
+
+            }
         public EmployeeInfoManager() : base(new EmployeeInfoRepository())
         {
         }

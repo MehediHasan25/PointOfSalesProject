@@ -33,7 +33,7 @@ namespace POS.Models.EntityModel
 
 
         public int? BranchId { get; set; }
-        public Branch Branch{ get; set;}
+        public virtual Branch Branch{ get; set;}
 
         public List<PurchaseReceiving> PurchasesReceivings { get; set; }
 

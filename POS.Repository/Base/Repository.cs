@@ -51,5 +51,16 @@ namespace POS.Repository.Base
             Table.Remove(entity);
             return Db.SaveChanges() > 0;
         }
+
+        public T GetFirstOrDefault(Func<T, bool> predicate)
+        {
+            return Table.FirstOrDefault(predicate);
+
+        }
+
+        public List<T> Get(Func<T, bool> predicate)
+        {
+            return Table.Where(predicate).ToList();
+        } 
     }
 }

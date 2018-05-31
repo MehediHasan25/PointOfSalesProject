@@ -105,5 +105,29 @@ namespace PointOfSalesSystem.Controllers
                 return View();
             }
         }
+
+
+        public JsonResult GetByBranch(int? branchId)
+        {
+            if (branchId == null)
+            {
+                return null;
+
+            }
+
+            var employeeInfoList= _employeeInfoManager.Get(c => c.BranchId == branchId);
+
+            if (employeeInfoList == null)
+            {
+                return null;
+            }
+            var jsonData = employeeInfoList.Select(c => new {c.Id,c.Name } );
+
+            return Json(jsonData, JsonRequestBehavior.AllowGet);
+
+
+        }
+
+
     }
 }

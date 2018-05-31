@@ -39,3 +39,4 @@ E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.Migrations.SalePrice.resources
 D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.initial.resources
 D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.virtualbranchincluded.resources

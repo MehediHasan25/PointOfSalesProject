@@ -43,5 +43,10 @@ namespace POS.BLL.BaseManager
 
             return Repository.Remove(entity);
         }
+
+        public List<T> Get(Func<T, bool> predicate)
+        {
+            return Repository.Get(predicate);
+        }
     }
 }
