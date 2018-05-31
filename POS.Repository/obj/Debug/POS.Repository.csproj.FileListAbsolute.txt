@@ -36,7 +36,5 @@ G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debu
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.Migrations.initial.resources
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.Migrations.PurchaseReceivingChanged.resources
-D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.Purchasework.resources
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.ExpenseWorkContinue.resources
 D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
-D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.adkj.resources
-D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.ExpeneWork.resources

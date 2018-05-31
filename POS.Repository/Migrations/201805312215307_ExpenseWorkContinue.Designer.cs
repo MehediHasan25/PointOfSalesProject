@@ -7,13 +7,13 @@ namespace POS.Repository.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class adkj : IMigrationMetadata
+    public sealed partial class ExpenseWorkContinue : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(adkj));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(ExpenseWorkContinue));
         
         string IMigrationMetadata.Id
         {
-            get { return "201805311857304_adkj"; }
+            get { return "201805312215307_ExpenseWorkContinue"; }
         }
         
         string IMigrationMetadata.Source

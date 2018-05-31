@@ -1,33 +1,42 @@
 ﻿$(document).ready(function () {
-var index = 0;
-    $("#addButton").click(function () {
-        
-    var enrollmentDetail = getEnrollmentDetail();
-    var indexCell = "<td style='display:none' ><input type='hidden' name='expenseDetailses.Index' value='" + index + "'></td>";
-        var courseNameCell = "<td> <input type='hidden' name='ExpenseDetailses[" + index + "].CourseId' value='" + enrollmentDetail.CourseId + "'>   " + enrollmentDetail.CourseName + "</td>";
-        var descriptionCell = "<td> <input type='hidden' name='ExpenseDetailses[" + index + "].Description' value='" + enrollmentDetail.Description + "'>" + enrollmentDetail.Description + "</td>";
-        var priceCell = "<td> <input type='hidden' name='ExpenseDetailses[" + index + "].Price' value='" + enrollmentDetail.Price + "'>" + enrollmentDetail.Price + "</td>";
-
-    var tbody = $("#tbenroll");
-
-    var tr = "<tr>" + indexCell + courseNameCell + descriptionCell + priceCell + "</tr>";
-    tbody.append(tr);
-
-    ++index;
-
-
-});
+    $("#addItem").click(function () {
+        var selectedItem = getSelectedItem();
+        createRowForPurchaseDetails(selectedItem);
+    });
 });
 
-function getEnrollmentDetail() {
-    
-    var expenseItemId = $("#ExpenseItemId").val();
-    var expenseItemName = $("#ExpenseItemId option:selected").text();
-    var quantity = $("Quantity")
-    var description = $("#Description").val();
-    var amount = $("#Amount").val();
+function createRowForPurchaseDetails(selectedItem) {
+    index = $("#purchaseDetailsTable").children("tr").length;
 
-    var expenseDetails = { : expenseItemId, CourseName: expenseItemName, Description: description, Amount: amount };
-    alert(expenseItemId);
-    return enrollmentDetails;
+    var IndexCell = "<td><input type='hidden' name='ExpenseDetailses.Index' value='" + index + "'/>" + index + "</td>"
+    var ExpenseItem = "<td><input type='hidden' name='ExpenseDetailses[" + index + "].ExpenseItemId' value='" + selectedItem.ExpenseItemId + "'/>" + selectedItem.ExpenseItem + "</td>"
+    var Quantity = "<td><input type='hidden' name='ExpenseDetailses[" + index + "].Quantity' value='" + selectedItem.Quantity + "'/>" + selectedItem.Quantity + "</td>"
+    var Description = "<td><input type='hidden' name='ExpenseDetailses[" + index + "].Description' value='" + selectedItem.Description + "'/>" + selectedItem.Description + "</td>"
+    var Amount = "<td><input type='hidden' name='ExpenseDetailses[" + index + "].Amount' value='" + selectedItem.Amount + "'/>" + selectedItem.Amount + "</td>"
+    var LiveTotal = "<td><input type='hidden' name='ExpenseDetailses[" + index + "].ExpenseItemTotalPrice' value='" + selectedItem.ExpenseItemTotalPrice + "'/>" + selectedItem.ExpenseItemTotalPrice + "</td>"
+    var ActionLink = "<td>Incomplete</td>"
+
+    var row = "<tr>" + IndexCell + ExpenseItem + Quantity + Amount + LiveTotal + Description + ActionLink + "</tr>";
+
+
+    $("#purchaseDetailsTable").append(row);
+}
+
+function getSelectedItem() {
+    var ExpenseItemId = $("#ExpenseItem").val();
+    var ExpenseItem = $("#ExpenseItem option:selected").text();
+    var Quantity = $("#Quantity").val();
+    var Description = $("#Description").val();
+    var Amount = $("#Amount").val();
+    var LiveTotal = $("#Amount").val() * $("#Quantity").val();
+
+    var model = {
+        "ExpenseItemId": ExpenseItemId,
+        "ExpenseItem": ExpenseItem,
+        "Quantity": Quantity,
+        "Description": Description,
+        "Amount": Amount,
+        "ExpenseItemTotalPrice": LiveTotal
+    };
+    return model;
 }
