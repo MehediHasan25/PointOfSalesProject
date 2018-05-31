@@ -14,8 +14,7 @@ namespace POS.Models.EntityModel
         public string Remarks { get; set; }
         public long PurchaseTotalAmount { get; set; }
 
-        public int? ItemId { get; set; }
-        public Item Item { get; set; }
+        
         
         //Branch Refered
         public int? BranchId { get; set; }
@@ -30,10 +29,10 @@ namespace POS.Models.EntityModel
 
         //Employee Refered
         public int? EmployeeInfoId { get; set; }
-        public EmployeeInfo EmployeeInfo { get; set; }
+        public  EmployeeInfo EmployeeInfo { get; set; }
         
         /// List OF Purchase Detais
-        public List<PurchaseReceivingDetails> PurchaseReceivingDetailses { get; set; }
+        public virtual List<PurchaseReceivingDetails> PurchaseReceivingDetailses { get; set; }
    
         
 

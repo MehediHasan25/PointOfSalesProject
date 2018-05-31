@@ -10,9 +10,8 @@ namespace PointOfSalesSystem.Models.ViewModels
     public class PurchaseReceivingCreateVM
     {
         public int Id { get; set; }
-        public int Quantity { get; set; }
-        [Display(Name = "Price")]
-        public int PurchasePrice { get; set; }
+       
+        
         [Display(Name = "Purchase No")]
         public int PurchaseNumber { get; set; }
         [Display(Name = "Purchase Date")]
@@ -22,8 +21,7 @@ namespace PointOfSalesSystem.Models.ViewModels
         [Display(Name = "Purchase Total Amount")]
         public long PurchaseTotalAmount { get; set; }
 
-        [Display(Name="Item Name")]
-        public int? ItemId { get; set; }
+        
         public List<Item> Items { get; set; }
 
         [Display(Name = "Branch")]

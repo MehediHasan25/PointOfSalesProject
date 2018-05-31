@@ -49,13 +49,13 @@
   <ItemGroup>
     <Compile Include="Base\Repository.cs" />
     <Compile Include="DatabaseContext\PosManagementDbContext.cs" />
-    <Compile Include="Migrations\201805311606218_initial.cs" />
-    <Compile Include="Migrations\201805311606218_initial.Designer.cs">
-      <DependentUpon>201805311606218_initial.cs</DependentUpon>
+    <Compile Include="Migrations\201805311821337_Purchasework.cs" />
+    <Compile Include="Migrations\201805311821337_Purchasework.Designer.cs">
+      <DependentUpon>201805311821337_Purchasework.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201805311705479_PurchaseReceivingChanged.cs" />
-    <Compile Include="Migrations\201805311705479_PurchaseReceivingChanged.Designer.cs">
-      <DependentUpon>201805311705479_PurchaseReceivingChanged.cs</DependentUpon>
+    <Compile Include="Migrations\201805311857304_adkj.cs" />
+    <Compile Include="Migrations\201805311857304_adkj.Designer.cs">
+      <DependentUpon>201805311857304_adkj.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
@@ -116,11 +116,11 @@
     <Folder Include="bin\Release\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201805311606218_initial.resx">
-      <DependentUpon>201805311606218_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805311821337_Purchasework.resx">
+      <DependentUpon>201805311821337_Purchasework.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805311705479_PurchaseReceivingChanged.resx">
-      <DependentUpon>201805311705479_PurchaseReceivingChanged.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805311857304_adkj.resx">
+      <DependentUpon>201805311857304_adkj.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -38,6 +38,7 @@ namespace PointOfSalesSystem.Controllers
             model.Branches = branch;
             var employeeInfo = _employeeInfoManager.GetAll();
             model.EmployeeInfoes = employeeInfo;
+           
             return View(model);
         }
 

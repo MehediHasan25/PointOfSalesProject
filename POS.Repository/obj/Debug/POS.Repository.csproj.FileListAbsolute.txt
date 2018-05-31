@@ -33,9 +33,9 @@ D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.CopyComplet
 D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.dll
 D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.pdb
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.initial.resources
-D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.initial.resources
-D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
-D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.virtualbranchincluded.resources
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.Migrations.initial.resources
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.Migrations.PurchaseReceivingChanged.resources
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.Purchasework.resources
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.adkj.resources
