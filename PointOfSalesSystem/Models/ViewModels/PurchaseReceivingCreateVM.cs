@@ -42,5 +42,7 @@ namespace PointOfSalesSystem.Models.ViewModels
         public int? EmployeeInfoId { get; set; }
         public List<EmployeeInfo> EmployeeInfoes { get; set; }
 
+        public List<PurchaseReceivingDetails> PurchaseReceivingDetailses { get; set; }
+
     }
 }

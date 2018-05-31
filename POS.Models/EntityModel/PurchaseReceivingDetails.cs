@@ -9,6 +9,7 @@ namespace POS.Models.EntityModel
    public class PurchaseReceivingDetails
     {
         public int Id { get; set; }
+        public int PurchasePrice { get; set; }
         public int Quantity { get; set; }
         public int PurchaseItemTotalPrice { get; set; }
 

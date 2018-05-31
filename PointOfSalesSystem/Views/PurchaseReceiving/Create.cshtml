@@ -6,88 +6,88 @@
 
 <h2>Create</h2>
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
-<div class="form-horizontal">
-    <h4>PurchaseReceivingCreateVM</h4>
-    <hr />
-    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
     <div class="form-horizontal">
-        <div class="form-group ">
-            <div class="row panel panel-heading">
-                @*...............OUTLET & Form Date,,,,,,,,,,,,,,,,,,,,*@
+        <h4>PurchaseReceivingCreateVM</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-horizontal">
+            <div class="form-group ">
+                <div class="row panel panel-heading">
+                    @*...............OUTLET & Form Date,,,,,,,,,,,,,,,,,,,,*@
 
 
 
-                <div class="col-md-2 col-md-offset-1 ">
-                    <div class="form-group">
-                        @Html.LabelFor(model => model.ItemId, htmlAttributes: new { @class = "control-label" })
+                    <div class="col-md-2 col-md-offset-1 ">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.ItemId, htmlAttributes: new { @class = "control-label" })
 
-                        @Html.DropDownListFor(model => model.ItemId, new SelectList(Model.Items, "Id", "Name"), "Select . . .", new { @class = "form-control" })
-                        @Html.ValidationMessageFor(model => model.ItemId, "", new { @class = "text-danger" })
+                            @Html.DropDownListFor(model => model.ItemId, new SelectList(Model.Items, "Id", "Name"), new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.ItemId, "", new { @class = "text-danger" })
+                        </div>
                     </div>
-                </div>
 
 
 
-                <div class="col-md-2 col-md-offset-1">
-                    <div class="form-group">
-                        @Html.LabelFor(model => model.Quantity, htmlAttributes: new { @class = "control-label" })
+                    <div class="col-md-2 col-md-offset-1">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Quantity, htmlAttributes: new { @class = "control-label" })
 
-                        @Html.EditorFor(model => model.Quantity, new { htmlAttributes = new { @class = "form-control" } })
-                        @Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "text-danger" })
+                            @Html.EditorFor(model => model.Quantity, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "text-danger" })
+                        </div>
                     </div>
-                </div>
 
 
 
 
-                <div class="col-md-2 col-md-offset-1">
-                    <div class="form-group">
-                        @Html.LabelFor(model => model.PurchasePrice, htmlAttributes: new { @class = "control-label col-md-1" })
-                        <
-                        @Html.EditorFor(model => model.PurchasePrice, new { htmlAttributes = new { @class = "form-control" } })
-                        @Html.ValidationMessageFor(model => model.PurchasePrice, "", new { @class = "text-danger" })
+                    <div class="col-md-2 col-md-offset-1">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.PurchasePrice, htmlAttributes: new { @class = "control-label col-md-1" })
+                            <
+                            @Html.EditorFor(model => model.PurchasePrice, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.PurchasePrice, "", new { @class = "text-danger" })
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div class="col-md-1 col-md-offset-1">
-                    <br>
-                    <input type="submit" value="Add" class="btn btn-info">
-                </div>
+                    <div>
+                        <div class="col-md-1 col-md-offset-1">
+                            <br>
+                            <input id="addItem" type="button" value="Add" class="btn btn-info">
+                        </div>
 
-                <div class="col-md-1 ">
-                    <br>
-                    <input type="submit" value="Delete" class="btn btn-danger">
+                        <div class="col-md-1 ">
+                            <br>
+                            <input type="button" value="Delete" class="btn btn-danger">
+                        </div>
+                    </div>
+
+
                 </div>
-                </div>
-                
 
             </div>
+
 
         </div>
 
 
-                </div>
 
 
-                
+        <br>
 
-                <br>
-
-            </div>
-        
+    </div>
 
 
 
-        @*..............Button................*@
+
+    @*..............Button................*@
 
 
 
-    
-    
+
+
 
     @*..............Table................*@
 
@@ -95,7 +95,7 @@
     <div class="form-group-row panel panel-body">
         <div class="col-md-7 col-md-offset-1">
             <table class="table table-hover table-striped table-bordered table-responsive">
-                <thead>
+                <thead >
                     <tr>
                         @*<th class="pr-md-3 pr-5">
                                 <input type="checkbox" class="filled-in" id="checkbox123">
@@ -111,7 +111,7 @@
 
 
                 </thead>
-                <tbody></tbody>
+                <tbody id="purchaseDetailsTable"></tbody>
 
             </table>
         </div>
@@ -203,8 +203,15 @@
 
     </div>
 
-   
 
-    }
 
-   
+}
+
+
+@section scripts
+    {
+
+
+    <script src="~/Scripts/POS/PurchaseReceiving/Create.js"></script>
+}
+

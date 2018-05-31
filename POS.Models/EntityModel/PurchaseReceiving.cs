@@ -9,8 +9,6 @@ namespace POS.Models.EntityModel
     public class PurchaseReceiving
     {
         public int Id { get; set; }
-        public int Quantity { get; set; }
-        public int PurchasePrice { get; set; }
         public int PurchaseNumber { get; set; }
         public string PurchaseDate { get; set; }
         public string Remarks { get; set; }
