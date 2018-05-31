@@ -1,4 +1,8 @@
-﻿using System;
+﻿using AutoMapper;
+using PointOfSalesSystem.Models.ViewModels;
+using POS.BLL.ManagerRepositories;
+using POS.Models.EntityModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,8 +10,14 @@ using System.Web.Mvc;
 
 namespace PointOfSalesSystem.Controllers
 {
+    
     public class ExpensesController : Controller
     {
+        ExpenseManager expenseManager = new ExpenseManager();
+        ExpenseItemManager _expenseItemManager = new ExpenseItemManager();
+        BranchManager _branchManager = new BranchManager();
+        EmployeeInfoManager _employeeInfoManager = new EmployeeInfoManager();
+
         // GET: Expenses
         public ActionResult Index()
         {
@@ -23,67 +33,56 @@ namespace PointOfSalesSystem.Controllers
         // GET: Expenses/Create
         public ActionResult Create()
         {
-            return View();
+            var model = new ExpenseCreateVM();
+            var item = _expenseItemManager.GetAll();
+            model.ExpenseItems = item;
+            var branch = _branchManager.GetAll();
+            model.Branches = branch;
+            var employee = _employeeInfoManager.GetAll();
+            model.EmployeeInfoes = employee;
+            return View(model);
         }
 
         // POST: Expenses/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(ExpenseCreateVM model)
         {
             try
             {
-                // TODO: Add insert logic here
+                if (ModelState.IsValid)
+                {
 
-                return RedirectToAction("Index");
+                    var expense = Mapper.Map<Expense>(model);
+                    bool isSaved = expenseManager.Save(expense);
+                    if (isSaved)
+                        return RedirectToAction("Create");
+                }
             }
-            catch
+            catch (Exception exception)
             {
-                return View();
+                ModelState.AddModelError("", exception.Message);
+
+                var itemList = _expenseItemManager.GetAll();
+                model.ExpenseItems = itemList;
+                var branchList = _branchManager.GetAll();
+                model.Branches = branchList;
+                var employeeList = _employeeInfoManager.GetAll();
+                model.EmployeeInfoes = employeeList;
+
+                return View(model);
             }
-        }
+            var item = _expenseItemManager.GetAll();
+            model.ExpenseItems = item;
+            var branch = _branchManager.GetAll();
+            model.Branches = branch;
+            var employee = _employeeInfoManager.GetAll();
+            model.EmployeeInfoes = employee;
 
-        // GET: Expenses/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: Expenses/Edit/5
-        [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add update logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Expenses/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: Expenses/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
+            return View(model);
         }
     }
-}
+
+        
+        
+    }
+

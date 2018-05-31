@@ -1,12 +1,12 @@
 ﻿$(document).ready(function () {
 var index = 0;
     $("#addButton").click(function () {
-        alert("Refat bhai kaj koren");
+        
     var enrollmentDetail = getEnrollmentDetail();
-    var indexCell = "<td style='display:none' ><input type='hidden' name='EnrollmentDetailses.Index' value='" + index + "'></td>";
-    var courseNameCell = "<td> <input type='hidden' name='EnrollmentDetailses[" + index + "].CourseId' value='" + enrollmentDetail.CourseId + "'>   " + enrollmentDetail.CourseName + "</td>";
-    var descriptionCell = "<td> <input type='hidden' name='EnrollmentDetailses[" + index + "].Description' value='" + enrollmentDetail.Description + "'>" + enrollmentDetail.Description + "</td>";
-    var priceCell = "<td> <input type='hidden' name='EnrollmentDetailses[" + index + "].Price' value='" + enrollmentDetail.Price + "'>" + enrollmentDetail.Price + "</td>";
+    var indexCell = "<td style='display:none' ><input type='hidden' name='expenseDetailses.Index' value='" + index + "'></td>";
+        var courseNameCell = "<td> <input type='hidden' name='ExpenseDetailses[" + index + "].CourseId' value='" + enrollmentDetail.CourseId + "'>   " + enrollmentDetail.CourseName + "</td>";
+        var descriptionCell = "<td> <input type='hidden' name='ExpenseDetailses[" + index + "].Description' value='" + enrollmentDetail.Description + "'>" + enrollmentDetail.Description + "</td>";
+        var priceCell = "<td> <input type='hidden' name='ExpenseDetailses[" + index + "].Price' value='" + enrollmentDetail.Price + "'>" + enrollmentDetail.Price + "</td>";
 
     var tbody = $("#tbenroll");
 
@@ -20,12 +20,14 @@ var index = 0;
 });
 
 function getEnrollmentDetail() {
-    var courseId = $("#ExpenseItemId").val();
-    var courseName = $("#ExpenseItemId option:selected").text();
+    
+    var expenseItemId = $("#ExpenseItemId").val();
+    var expenseItemName = $("#ExpenseItemId option:selected").text();
+    var quantity = $("Quantity")
     var description = $("#Description").val();
-    var price = $("#Price").val();
+    var amount = $("#Amount").val();
 
-var enrollmentDetails = { CourseId: courseId, CourseName: courseName, Description: description, Price: price };
-    alert(courseId);
+    var expenseDetails = { : expenseItemId, CourseName: expenseItemName, Description: description, Amount: amount };
+    alert(expenseItemId);
     return enrollmentDetails;
 }

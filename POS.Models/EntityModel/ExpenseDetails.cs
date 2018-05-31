@@ -11,6 +11,8 @@ namespace POS.Models.EntityModel
         public int Id { get; set; }
         public int Quantity { get; set; }
         public int ExpenseItemTotalPrice { get; set; }
+        public String Description { get; set; }
+        public int Amount { get; set; }
 
         public int? ExpenseId { get; set; }
         public Expense Expense { get; set; }

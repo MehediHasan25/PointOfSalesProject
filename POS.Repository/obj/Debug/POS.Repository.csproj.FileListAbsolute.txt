@@ -39,3 +39,4 @@ E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS
 D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.Purchasework.resources
 D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
 D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.adkj.resources
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.ExpeneWork.resources
