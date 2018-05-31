@@ -23,10 +23,10 @@
 
                     <div class="col-md-2 col-md-offset-1 ">
                         <div class="form-group">
-                            @Html.LabelFor(model => model.ItemId, htmlAttributes: new { @class = "control-label" })
+                            @Html.Label("Item", htmlAttributes: new { @class = "control-label" })
 
-                            @Html.DropDownListFor(model => model.ItemId, new SelectList(Model.Items, "Id", "Name"), new { @class = "form-control" })
-                            @Html.ValidationMessageFor(model => model.ItemId, "", new { @class = "text-danger" })
+                            @Html.DropDownList("Item", new SelectList(Model.Items, "Id", "Name"), new { @class = "form-control" })
+                            @*@Html.ValidationMessageFor(model => model.ItemId, "", new { @class = "text-danger" })*@
                         </div>
                     </div>
 
@@ -34,10 +34,10 @@
 
                     <div class="col-md-2 col-md-offset-1">
                         <div class="form-group">
-                            @Html.LabelFor(model => model.Quantity, htmlAttributes: new { @class = "control-label" })
+                            @Html.Label("Quantity", htmlAttributes: new { @class = "control-label" })
 
-                            @Html.EditorFor(model => model.Quantity, new { htmlAttributes = new { @class = "form-control" } })
-                            @Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "text-danger" })
+                            @Html.Editor("Quantity", new { htmlAttributes = new { @class = "form-control" } })
+                            @*@Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "text-danger" })*@
                         </div>
                     </div>
 
@@ -46,10 +46,10 @@
 
                     <div class="col-md-2 col-md-offset-1">
                         <div class="form-group">
-                            @Html.LabelFor(model => model.PurchasePrice, htmlAttributes: new { @class = "control-label col-md-1" })
+                            @Html.Label("PurchasePrice", htmlAttributes: new { @class = "control-label col-md-1" })
                             <
-                            @Html.EditorFor(model => model.PurchasePrice, new { htmlAttributes = new { @class = "form-control" } })
-                            @Html.ValidationMessageFor(model => model.PurchasePrice, "", new { @class = "text-danger" })
+                            @Html.Editor("PurchasePrice", new { htmlAttributes = new { @class = "form-control" } })
+                            @*@Html.ValidationMessageFor(model => model.PurchasePrice, "", new { @class = "text-danger" })*@
                         </div>
                     </div>
                     <div>
@@ -97,10 +97,6 @@
             <table class="table table-hover table-striped table-bordered table-responsive">
                 <thead >
                     <tr>
-                        @*<th class="pr-md-3 pr-5">
-                                <input type="checkbox" class="filled-in" id="checkbox123">
-                                <label for="checkbox123" class="label-table"></label>
-                            </th>*@
                         <th>Sl</th>
                         <th>Item</th>
                         <th>Qty</th>
