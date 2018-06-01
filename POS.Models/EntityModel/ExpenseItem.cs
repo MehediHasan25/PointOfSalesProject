@@ -13,9 +13,12 @@ namespace POS.Models.EntityModel
         public double Price { get; set; }
         public string ItemCode { get; set; }
         public byte[] Image { get; set; }
+        public string Description { get; set; }
 
         //Expense Category Refere
         public int? ExpenseCategoryId { get; set; }
         public ExpenseCategory ExpenseCategory { get; set; }
+
+        public List<ExpenseItem> ChildItems { get; set; }
     }
 }

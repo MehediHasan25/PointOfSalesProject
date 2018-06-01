@@ -32,6 +32,7 @@ namespace PointOfSalesSystem.Controllers
         {
             var model = new ExpenseItemCreateVM();
             model.ExpenseCategories = _expenseCategoryManager.GetAll();
+            model.ChildItems = _expenseItemManager.GetAll();
             return View(model);
         }
 
@@ -57,10 +58,12 @@ namespace PointOfSalesSystem.Controllers
                 ModelState.AddModelError("", exception.Message);
                 var expenseCategoryList = _expenseCategoryManager.GetAll();
                 model.ExpenseCategories = expenseCategoryList;
+                model.ChildItems = _expenseItemManager.GetAll();
                 return View(model);
             }
             var expenseCategory = _expenseCategoryManager.GetAll();
             model.ExpenseCategories = expenseCategory;
+            model.ChildItems = _expenseItemManager.GetAll();
             return View(model);
         }
 

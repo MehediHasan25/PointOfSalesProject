@@ -14,7 +14,7 @@ namespace PointOfSalesSystem.Models.ViewModels
         [Display(Name = "Qty")]
         public int ExpenseQuantity { get; set; }
         
-        [Display(Name = "Date")]
+        
         
         public double Amount { get; set; }
         [Display(Name = "Description")]

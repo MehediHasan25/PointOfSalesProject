@@ -15,11 +15,13 @@ namespace PointOfSalesSystem.Models.ViewModels
         [Display(Name= "Item Code")]
         public string ItemCode { get; set; }
         public byte[] Image { get; set; }
+        public string Description { get; set; }
 
         //Expense Category Refere
         [Display(Name = "Category")]
         public int? ExpenseCategoryId { get; set; }
         public List <ExpenseCategory> ExpenseCategories { get; set; }
+        public List<ExpenseItem> ChildItems { get; set; }
 
     }
 }

@@ -66,3 +66,4 @@ F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repositor
 F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.CopyComplete
 F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.dll
 F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.pdb
+F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.ExpenseItemChangeswithDescription.resources
