@@ -32,6 +32,7 @@ namespace PointOfSalesSystem.Controllers
         {
             var model = new ItemCreateVM();
             model.ItemCategories = _itemCategoryManager.GetAll();
+            model.ChildItems = _itemManager.GetAll();
             return View(model);
         }
 
@@ -51,9 +52,11 @@ namespace PointOfSalesSystem.Controllers
                 ModelState.AddModelError("", exception.Message);
 
                 model.ItemCategories = _itemCategoryManager.GetAll();
+                model.ChildItems = _itemManager.GetAll();
                 return View(model);
             }
             model.ItemCategories = _itemCategoryManager.GetAll();
+            model.ChildItems = _itemManager.GetAll();
             return View(model);
         }
 

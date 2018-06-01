@@ -14,7 +14,7 @@ namespace POS.Models.EntityModel
         public double SalesPrice { get; set; }
         public string ItemCode { get; set; }
         public byte[] Image { get; set; }
-
+        public string Description { get; set; }
         public int? ItemCategoryId { get; set; }
         public ItemCategory ItemCategory { get; set; }
 

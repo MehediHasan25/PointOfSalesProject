@@ -29,7 +29,7 @@ namespace PointOfSalesSystem.Controllers
         public ActionResult Create()
         {
             var model = new OrganizationsCreateVM();
-             
+            model.Organizationses = _organizationsManager.GetAll();
             return View(model);
         }
 
@@ -53,8 +53,10 @@ namespace PointOfSalesSystem.Controllers
             catch(Exception exception)
             {
                 ModelState.AddModelError("", exception.Message);
+                model.Organizationses = _organizationsManager.GetAll();
                 return View(model);
             }
+            
         }
 
         // GET: Organizations/Edit/5

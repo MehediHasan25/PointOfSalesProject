@@ -1,4 +1,7 @@
 ﻿@model PointOfSalesSystem.Models.ViewModels.ItemCreateVM
+@using POS.Models.EntityModel;
+@using PointOfSalesSystem.Models.ViewModels;
+
 
 @{
     ViewBag.Title = "Create";
@@ -6,10 +9,10 @@
 
 <h2>Create</h2>
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
+
 <div class="form-horizontal">
     <h4>Item</h4>
     <hr />
@@ -58,6 +61,15 @@
     </div>
 
     <div class="form-group">
+        @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
         @Html.LabelFor(model => model.Image, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
             @Html.EditorFor(model => model.Image, new { htmlAttributes = new { @class = "form-control" } })
@@ -70,7 +82,53 @@
             <input type="submit" value="Create" class="btn btn-default" />
         </div>
     </div>
+
+    <table class="table table-hover table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Sl</th>
+                <th>Category</th>
+                <th>Name</th>
+                <th>Code</th>
+                <th>Description</th>
+                <th>Cost Price</th>
+                <th>Sales Price</th>
+                <th>Action</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int Sl = 0;
+            }
+
+            @foreach (Item Item in Model.ChildItems)
+            {
+                <tr>
+                    <td>@(++Sl)</td>
+
+
+                    <td>
+                        @((from p in Model.ItemCategories
+                                   where p.Id
+                                   == Item.ItemCategoryId
+                                   select new { p.Name }).First())
+                    </td>
+
+
+                    <td>@Item.Name</td>
+                    <td>@Item.ItemCode</td>
+                    <td>@Item.Description</td>
+                    <td>@Item.CostsPrice </td>
+                    <td>@Item.SalesPrice</td>
+                    <td>Action</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
 </div>
+
 }
 
 <div>

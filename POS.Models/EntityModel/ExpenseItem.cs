@@ -19,6 +19,6 @@ namespace POS.Models.EntityModel
         public int? ExpenseCategoryId { get; set; }
         public ExpenseCategory ExpenseCategory { get; set; }
 
-        public List<ExpenseItem> ChildItems { get; set; }
+        
     }
 }

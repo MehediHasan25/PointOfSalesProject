@@ -59,11 +59,9 @@ F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repositor
 F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Models.pdb
 F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Models.dll.config
 F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csprojAssemblyReference.cache
-F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.Sales.resources
-F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.Expense.resources
-F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
 F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.CoreCompileInputs.cache
 F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.CopyComplete
 F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.dll
 F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.pdb
-F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.ExpenseItemChangeswithDescription.resources
+F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.changes.resources
+F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache

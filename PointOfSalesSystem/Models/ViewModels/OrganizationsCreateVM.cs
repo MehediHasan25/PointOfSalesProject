@@ -1,4 +1,5 @@
-﻿using System;
+﻿using POS.Models.EntityModel;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -14,5 +15,6 @@ namespace PointOfSalesSystem.Models.ViewModels
         public string ContactNo { get; set; }
         public byte[] Image { get; set; }
         public string Address { get; set; }
+        public List<Organizations> Organizationses { get; set; }
     }
 }

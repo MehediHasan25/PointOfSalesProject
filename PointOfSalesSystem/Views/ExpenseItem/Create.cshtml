@@ -95,14 +95,23 @@
 
             @foreach (ExpenseItem ExpenseItem in Model.ChildItems)
             {
-                <tr>
-                    <td>@(++Sl)</td>
-                    <td>@ExpenseItem.ExpenseCategory.Name</td>
-                    <td>@ExpenseItem.Name</td>
-                    <td>@ExpenseItem.ItemCode</td>
-                    <td>@ExpenseItem.Description</td>
-                    <td>Action</td>
-                </tr>
+            <tr>
+                <td>@(++Sl)</td>
+               
+                    
+                    <td>
+                        @((from p in Model.ExpenseCategories
+                           where p.Id
+                           == ExpenseItem.ExpenseCategoryId
+                           select new { p.Name } ).First())
+                    </td>
+                
+                
+                <td>@ExpenseItem.Name</td>
+                <td>@ExpenseItem.ItemCode</td>
+                <td>@ExpenseItem.Description</td>
+                <td>Action</td>
+            </tr>
             }
 
         </tbody>
