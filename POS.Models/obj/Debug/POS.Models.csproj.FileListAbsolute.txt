@@ -22,3 +22,11 @@ D:\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.csproj.CoreCompileInputs.c
 D:\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.csproj.CopyComplete
 D:\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.dll
 D:\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.pdb
+M:\PointOfSalesSystem\POS.Models\bin\Debug\POS.Models.dll.config
+M:\PointOfSalesSystem\POS.Models\bin\Debug\POS.Models.dll
+M:\PointOfSalesSystem\POS.Models\bin\Debug\POS.Models.pdb
+M:\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.csprojAssemblyReference.cache
+M:\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.csproj.CoreCompileInputs.cache
+M:\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.csproj.CopyComplete
+M:\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.dll
+M:\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.pdb

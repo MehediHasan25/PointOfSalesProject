@@ -14,13 +14,12 @@ namespace PointOfSalesSystem.Models.ViewModels
         public int VAT { get; set; }
         public int Dicount { get; set; }
         public long SalesTotalAmount { get; set; }
-        public double SalePrice { get; set; }
-
-        public int Quantity { get; set; }
+        
+        
 
 
         //item referenece
-        public int? ItemId { get; set; }
+        
         public List<Item> Items { get; set; }
 
         //Customer Refered
@@ -28,11 +27,11 @@ namespace PointOfSalesSystem.Models.ViewModels
 
         //Branch Refered
         public int? BranchId { get; set; }
-        public List<Branch> Branch { get; set; }
+        public List<Branch> Branches { get; set; }
 
         //Employee Refered
         public int? EmployeeInfoId { get; set; }
-        public List<EmployeeInfo> Employee { get; set; }
+        public List<EmployeeInfo> EmployeeInfoes { get; set; }
 
         //List of Sales Details
         public List<SalesDetails> SalesDetailses { get; set; }

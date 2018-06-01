@@ -11,19 +11,19 @@ namespace POS.Models.EntityModel
         public int Id { get; set; }
         public int ExpenseNumber { get; set; }
         public string ExpenseDate { get; set; }
-        public string ReasonsOfExpense { get; set; }
+        //public string ReasonsOfExpense { get; set; }
         public long ExpenseTotalAmount { get; set; }
 
-        //ExpenseItem Refered
-        public int ExpenseItemId { get; set; }
-        public ExpenseItem ExpenseItem { get; set; }
+        ////ExpenseItem Refered
+        //public int ExpenseItemId { get; set; }
+        //public ExpenseItem ExpenseItem { get; set; }
         
         //Branch Refered
         public int? BranchId { get; set; }
         public Branch Branch { get; set; }
 
         //Employee Refered
-        public int EmployeeInfoId { get; set; }
+        public int? EmployeeInfoId { get; set; }
         public EmployeeInfo EmployeeInfo { get; set; }
 
         /// List OF Purchase Detais

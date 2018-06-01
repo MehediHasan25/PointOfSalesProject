@@ -33,7 +33,22 @@ D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.CopyComplet
 D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.dll
 D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.pdb
 G:\ASP.NET ALL\Point of sales project\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.initial.resources
-D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.ExpenseWorkContinue.resources
-D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.Migrations.initial.resources
 E:\Random Codes And Sample Work\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.Sales.resources
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
+D:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.Expense.resources
+M:\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Repository.dll.config
+M:\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Repository.dll
+M:\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Repository.pdb
+M:\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Models.dll
+M:\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Models.pdb
+M:\PointOfSalesSystem\POS.Repository\bin\Debug\POS.Models.dll.config
+M:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csprojAssemblyReference.cache
+M:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.Sales.resources
+M:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.Expense.resources
+M:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
+M:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.CoreCompileInputs.cache
+M:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.CopyComplete
+M:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.dll
+M:\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.pdb

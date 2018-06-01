@@ -15,15 +15,18 @@ namespace PointOfSalesSystem.Models.ViewModels
         public int ExpenseQuantity { get; set; }
         
         [Display(Name = "Date")]
-        public string ExpenseDate { get; set; }
-        public double ExpenseAmount { get; set; }
+        
+        public double Amount { get; set; }
         [Display(Name = "Description")]
-        public string ReasonsOfExpense { get; set; }
+        public string Description { get; set; }
         public long ExpenseTotalAmount { get; set; }
 
         //ExpenseItem Refered
-        public int? ExpenseItemId { get; set; }
+        
         public List<ExpenseItem> ExpenseItems { get; set; }
+
+        public string ExpenseDate { get; set; }
+
 
         //Branch Refered
         public int? BranchId { get; set; }

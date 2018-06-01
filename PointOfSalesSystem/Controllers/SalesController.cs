@@ -36,8 +36,8 @@ namespace PointOfSalesSystem.Controllers
         {
             var model = new SalesCreateVM();
             model.Items = _itemManager.GetAll();
-            model.Branch = _branchManager.GetAll();
-            model.Employee = _employeeInfoManager.GetAll();
+            model.Branches = _branchManager.GetAll();
+            model.EmployeeInfoes = _employeeInfoManager.GetAll();
             return View(model);
         }
 
@@ -62,14 +62,14 @@ namespace PointOfSalesSystem.Controllers
             {
                 ModelState.AddModelError("", exception.Message);
                 model.Items = _itemManager.GetAll();
-                model.Branch = _branchManager.GetAll();
-                model.Employee = _employeeInfoManager.GetAll();
+                model.Branches = _branchManager.GetAll();
+                model.EmployeeInfoes = _employeeInfoManager.GetAll();
                 return View(model);
             }
             
             model.Items = _itemManager.GetAll();
-            model.Branch = _branchManager.GetAll();
-            model.Employee = _employeeInfoManager.GetAll();
+            model.Branches = _branchManager.GetAll();
+            model.EmployeeInfoes = _employeeInfoManager.GetAll();
             return View(model);
         }
 

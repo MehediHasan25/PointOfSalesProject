@@ -40,3 +40,17 @@ D:\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.csproj.CoreCompileInputs.cache
 D:\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.csproj.CopyComplete
 D:\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.dll
 D:\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.pdb
+M:\PointOfSalesSystem\POS.BLL\bin\Debug\POS.BLL.dll
+M:\PointOfSalesSystem\POS.BLL\bin\Debug\POS.BLL.pdb
+M:\PointOfSalesSystem\POS.BLL\bin\Debug\POS.Models.dll
+M:\PointOfSalesSystem\POS.BLL\bin\Debug\POS.Repository.dll
+M:\PointOfSalesSystem\POS.BLL\bin\Debug\EntityFramework.dll
+M:\PointOfSalesSystem\POS.BLL\bin\Debug\POS.Models.pdb
+M:\PointOfSalesSystem\POS.BLL\bin\Debug\POS.Models.dll.config
+M:\PointOfSalesSystem\POS.BLL\bin\Debug\POS.Repository.pdb
+M:\PointOfSalesSystem\POS.BLL\bin\Debug\POS.Repository.dll.config
+M:\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.csprojAssemblyReference.cache
+M:\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.csproj.CoreCompileInputs.cache
+M:\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.csproj.CopyComplete
+M:\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.dll
+M:\PointOfSalesSystem\POS.BLL\obj\Debug\POS.BLL.pdb

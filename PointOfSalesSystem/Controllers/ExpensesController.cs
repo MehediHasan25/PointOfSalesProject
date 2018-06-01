@@ -34,12 +34,12 @@ namespace PointOfSalesSystem.Controllers
         public ActionResult Create()
         {
             var model = new ExpenseCreateVM();
-            var item = _expenseItemManager.GetAll();
-            model.ExpenseItems = item;
-            var branch = _branchManager.GetAll();
-            model.Branches = branch;
-            var employee = _employeeInfoManager.GetAll();
-            model.EmployeeInfoes = employee;
+            model.ExpenseItems = _expenseItemManager.GetAll();
+
+            model.Branches = _branchManager.GetAll();
+
+            model.EmployeeInfoes = _employeeInfoManager.GetAll();
+             
             return View(model);
         }
 
@@ -62,21 +62,19 @@ namespace PointOfSalesSystem.Controllers
             {
                 ModelState.AddModelError("", exception.Message);
 
-                var itemList = _expenseItemManager.GetAll();
-                model.ExpenseItems = itemList;
-                var branchList = _branchManager.GetAll();
-                model.Branches = branchList;
-                var employeeList = _employeeInfoManager.GetAll();
-                model.EmployeeInfoes = employeeList;
+                model.ExpenseItems = _expenseItemManager.GetAll();
+
+                model.Branches = _branchManager.GetAll();
+
+                model.EmployeeInfoes = _employeeInfoManager.GetAll();
 
                 return View(model);
             }
-            var item = _expenseItemManager.GetAll();
-            model.ExpenseItems = item;
-            var branch = _branchManager.GetAll();
-            model.Branches = branch;
-            var employee = _employeeInfoManager.GetAll();
-            model.EmployeeInfoes = employee;
+            model.ExpenseItems = _expenseItemManager.GetAll();
+
+            model.Branches = _branchManager.GetAll();
+
+            model.EmployeeInfoes = _employeeInfoManager.GetAll();
 
             return View(model);
         }

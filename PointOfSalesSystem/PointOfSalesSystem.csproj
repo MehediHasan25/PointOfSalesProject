@@ -211,6 +211,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\POS\Expense\Expense.js" />
     <Content Include="Scripts\POS\PurchaseReceiving\Create.js" />
+    <Content Include="Scripts\POS\Sales\Sales.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -260,8 +261,8 @@
     <Content Include="Views\Party\Create.cshtml" />
     <Content Include="Views\PurchaseReceiving\Create.cshtml" />
     <Content Include="Views\EmployeeInfo\Create.cshtml" />
-    <Content Include="Views\Expenses\Create.cshtml" />
     <Content Include="Views\Sales\Create.cshtml" />
+    <Content Include="Views\Expenses\Create.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

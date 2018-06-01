@@ -11,6 +11,7 @@ namespace POS.Models.EntityModel
         public int Id { get; set; }
         public int Quantity { get; set; }
         public int SalesItemTotalPrice { get; set; }
+        public double SalesPrice { get; set; }
 
         public int? SalesId { get; set; }
         public Sales Sales { get; set; }
