@@ -65,3 +65,16 @@ F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repositor
 F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.pdb
 F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.Migrations.changes.resources
 F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Repository\bin\Debug\POS.Repository.dll.config
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Repository\bin\Debug\POS.Repository.dll
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Repository\bin\Debug\POS.Repository.pdb
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Repository\bin\Debug\POS.Models.dll
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Repository\bin\Debug\POS.Models.pdb
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Repository\bin\Debug\POS.Models.dll.config
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.csprojAssemblyReference.cache
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.Migrations.changes.resources
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.csproj.GenerateResource.cache
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.csproj.CoreCompileInputs.cache
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.csproj.CopyComplete
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.dll
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Repository\obj\Debug\POS.Repository.pdb

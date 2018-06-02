@@ -38,3 +38,11 @@ F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Models\ob
 F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.csproj.CopyComplete
 F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.dll
 F:\Repository of Point of sales system last day\PointOfSalesSystem\POS.Models\obj\Debug\POS.Models.pdb
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Models\bin\Debug\POS.Models.dll.config
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Models\bin\Debug\POS.Models.dll
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Models\bin\Debug\POS.Models.pdb
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Models\obj\Debug\POS.Models.csprojAssemblyReference.cache
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Models\obj\Debug\POS.Models.csproj.CoreCompileInputs.cache
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Models\obj\Debug\POS.Models.csproj.CopyComplete
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Models\obj\Debug\POS.Models.dll
+E:\Random Codes And Sample Work\ASP.Net MVC\PointOfSalesProject\POS.Models\obj\Debug\POS.Models.pdb
