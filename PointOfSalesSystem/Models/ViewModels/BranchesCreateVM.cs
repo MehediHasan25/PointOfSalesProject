@@ -20,5 +20,6 @@ namespace PointOfSalesSystem.Models.ViewModels
         public int? OrganizationsId { get; set; }
         [Display(Name = "BranchName")]
         public List <Organizations> Organizationses { get; set; }
+        public List<Branch> Branches { get; set; }
     }
 }

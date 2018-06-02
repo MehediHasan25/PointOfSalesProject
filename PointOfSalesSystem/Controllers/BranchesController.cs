@@ -32,6 +32,7 @@ namespace PointOfSalesSystem.Controllers
             var model = new BranchesCreateVM();
             var organizations = _organizationsManager.GetAll();
             model.Organizationses = organizations;
+            model.Branches = _branchManager.GetAll();
             return View(model);
         }
 
@@ -58,11 +59,13 @@ namespace PointOfSalesSystem.Controllers
                 
                 var list = _organizationsManager.GetAll();
                 model.Organizationses = list;
+                model.Branches = _branchManager.GetAll();
                 return View(model);
             }
             
             var organizations = _organizationsManager.GetAll();
             model.Organizationses = organizations;
+            model.Branches = _branchManager.GetAll();
             return View(model);
         }
 
