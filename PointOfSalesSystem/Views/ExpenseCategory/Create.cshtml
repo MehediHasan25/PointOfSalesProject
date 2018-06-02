@@ -1,4 +1,5 @@
 ﻿@model PointOfSalesSystem.Models.ViewModels.ExpenseCategoryCreateVM
+@using POS.Models.EntityModel;
 
 @{
     ViewBag.Title = "Create";
@@ -19,7 +20,7 @@
             <div class="col-md-6">
                 <div class="col-md-3">
                     <input type="radio" name="lang_anz" value="1" checked="checked"> Root<br>
-                    
+
                 </div>
                 <div class="col-md-3">
                     <input type="radio" name="lang_anz" value="0"> Child<br>
@@ -77,6 +78,78 @@
                 <input type="submit" value="Create" class="btn btn-default" />
             </div>
         </div>
+        <table class="table table-bordered table-condensed table-hover table-responsive table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        SL
+                    </th>
+                    <th>
+                        Category Type
+                    </th>
+                    <th>
+                        Category
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Code
+                    </th>
+                    <th>
+                        Desciption
+                    </th>
+                    <th>
+                        Action
+                    </th>
+                </tr>
+            <thead>
+            <tbody>
+                @{
+                    int sl = 0;
+                }
+
+                @foreach (ExpenseCategory ExpenseCategory in Model.Childs)
+                {
+                    <tr>
+                        <td>@(++sl)</td>
+
+                        @if (ExpenseCategory.ParentId == null)
+                        {
+                            <td>
+                                Parent
+                            </td>
+                            <td>
+                                @(ExpenseCategory.Name)
+                            </td>
+                        }
+                        else
+                        {
+                            <td>
+                                Child
+                            </td>
+                            <td>
+                                @((from p in Model.Childs
+                                           where p.Id == ExpenseCategory.ParentId
+                                           select new { p.Name }).First())
+                            </td>
+                        }
+
+                        <td>@(ExpenseCategory.Name )</td>
+
+                        <td>@(ExpenseCategory.ItemCategoryCode )</td>
+
+                        <td>@(ExpenseCategory.Description )</td>
+
+                        <td>Action</td>
+
+                    </tr>
+                }
+
+
+            </tbody>
+
+        </table>
     </div>
 }
 
