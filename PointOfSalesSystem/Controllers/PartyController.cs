@@ -30,6 +30,7 @@ namespace PointOfSalesSystem.Controllers
         public ActionResult Create()
         {
             var model = new PartyCreateVM();
+            model.Parties = _partyManager.GetAll();
 
             return View(model);
         }
@@ -53,8 +54,10 @@ namespace PointOfSalesSystem.Controllers
             catch(Exception exception)
             {
                 ModelState.AddModelError("", exception.Message);
+                model.Parties = _partyManager.GetAll();
                 return View(model);
             }
+
         }
 
         // GET: Party/Edit/5
