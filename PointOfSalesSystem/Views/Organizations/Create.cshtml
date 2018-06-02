@@ -76,7 +76,7 @@
 
             </tr>
         </thead>
-        @*<tbody>
+        <tbody>
             @{
                 int Sl = 0;
             }
@@ -90,16 +90,16 @@
                     
 
 
-                    <td>@Organizations.</td>
-                    <td>@Item.ItemCode</td>
-                    <td>@Item.Description</td>
-                    <td>@Item.CostsPrice </td>
-                    <td>@Item.SalesPrice</td>
+                    <td>@Organizations.Name</td>
+                    <td>@Organizations.OrganizationCode</td>
+                    <td>@Organizations.ContactNo</td>
+                    <td>@Organizations.Image </td>
+                    <td>@Organizations.Address</td>
                     <td>Action</td>
                 </tr>
             }
 
-        </tbody>*@
+        </tbody>
     </table>
 </div>
 }
