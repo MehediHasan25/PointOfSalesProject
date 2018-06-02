@@ -252,7 +252,7 @@
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
                         <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>Setup &Aacute; View<span class="fa arrow"></span></a>
+                            <a href="#"><i class=""></i> View and Setup<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     @Html.ActionLink("Organization", "create", "Organizations", null, null);
@@ -277,6 +277,21 @@
                                 </li>
                                 <li>
                                     @Html.ActionLink("Customer/Supplier", "create", "Party", null, null);
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class=""></i>Operations<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    @Html.ActionLink("Purchase Receiving", "create", "PurchaseReceiving", null, null);
+                                </li>
+                                <li>
+                                    @Html.ActionLink("Sales", "create", "Sales", null, null);
+                                </li>
+                                <li>
+                                    @Html.ActionLink("Expenses", "create", "Expenses", null, null);
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
