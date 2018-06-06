@@ -54,7 +54,11 @@ namespace PointOfSalesSystem.Controllers
                     var purchaseReceiving = Mapper.Map<PurchaseReceiving>(model);
                     bool isSaved = _purchaseReceivingManager.Save(purchaseReceiving);
                     if (isSaved)
+                    {
+
                         return RedirectToAction("Create");
+                    }
+                        
                 }
 
             }
