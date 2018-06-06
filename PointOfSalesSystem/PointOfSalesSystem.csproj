@@ -201,7 +201,7 @@
     <Content Include="Scripts\Employee Info\EmployeeInfo.js" />
     <Content Include="Scripts\ExpenseCategory\ExpenseCategoryRadio.js" />
     <Content Include="Scripts\ItemCategory\ItemCategoryRadio.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />

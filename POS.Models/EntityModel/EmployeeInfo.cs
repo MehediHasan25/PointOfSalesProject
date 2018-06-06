@@ -28,14 +28,14 @@ namespace POS.Models.EntityModel
         public byte[] Image { get; set; }
 
         public int? EmployeeInfosId { get; set; }
-        public EmployeeInfo EmployeeInfos { get; set; }
+        public virtual EmployeeInfo EmployeeInfos { get; set; }
 
 
 
         public int? BranchId { get; set; }
         public virtual Branch Branch{ get; set;}
 
-        public List<PurchaseReceiving> PurchasesReceivings { get; set; }
+        public virtual List<PurchaseReceiving> PurchasesReceivings { get; set; }
 
 
 
