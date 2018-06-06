@@ -16,6 +16,7 @@ namespace PointOfSalesSystem.Controllers
         BranchManager _branchManager = new BranchManager();
         EmployeeInfoManager _employeeInfoManager = new EmployeeInfoManager();
         ItemManager _itemManager = new ItemManager(); //item Manager for dropdown
+        PurchaseReceivingDetailsManager _PurchaseReceivingDetailsManager = new PurchaseReceivingDetailsManager();
         // GET: PurchaseReceiving
         public ActionResult Index()
         {
@@ -50,12 +51,11 @@ namespace PointOfSalesSystem.Controllers
             {
                 if (ModelState.IsValid)
                 {
-
                     var purchaseReceiving = Mapper.Map<PurchaseReceiving>(model);
                     bool isSaved = _purchaseReceivingManager.Save(purchaseReceiving);
                     if (isSaved)
                     {
-
+                        
                         return RedirectToAction("Create");
                     }
                         
