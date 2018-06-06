@@ -38,7 +38,13 @@ namespace PointOfSalesSystem.Controllers
             model.Branches = branch;
             var employeeInfo = _employeeInfoManager.GetAll();
             model.EmployeeInfoes = employeeInfo;
-           
+
+            ViewBag.EmployeeInfoId = new List<SelectListItem>()
+            {
+                new SelectListItem(){ Value="",Text="Select" }
+                
+            };
+
             return View(model);
         }
 

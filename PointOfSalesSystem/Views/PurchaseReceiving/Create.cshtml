@@ -55,7 +55,7 @@
                     <div>
                         <div class="col-md-1 col-md-offset-1">
                             <br>
-                            <input id="addItem" type="button" value="Add" class="btn btn-info">
+                            <input id="addButton" type="button" value="Add" class="btn btn-info">
                         </div>
 
                         <div class="col-md-1 ">
@@ -107,7 +107,7 @@
 
 
                 </thead>
-                <tbody id="purchaseDetailsTable"></tbody>
+                <tbody id="purchaseTable"></tbody>
 
             </table>
         </div>
@@ -118,6 +118,7 @@
                     @Html.LabelFor(model => model.BranchId, htmlAttributes: new { @class = "control-label" })
 
                     @Html.DropDownListFor(model => model.BranchId, new SelectList(Model.Branches, "Id", "Name"), "Select . . .", new { @class = "form-control" })
+
                     @Html.ValidationMessageFor(model => model.BranchId, "", new { @class = "text-danger" })
 
                 </div>
@@ -127,8 +128,8 @@
                 <div class="col-md-12">
                     @Html.LabelFor(model => model.EmployeeInfoId, htmlAttributes: new { @class = "control-label" })
 
-                    @Html.DropDownListFor(model => model.EmployeeInfoId, new SelectList(Model.EmployeeInfoes, "Id", "Name"), "Select . . .", new { @class = "form-control" })
-                    @Html.ValidationMessageFor(model => model.EmployeeInfoId, "", new { @class = "text-danger" })
+                    @Html.DropDownListFor(model => model.EmployeeInfoId, null, new { @class = "form-control" })
+                    
 
                 </div>
             </div>

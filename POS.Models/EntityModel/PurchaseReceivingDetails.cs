@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace POS.Models.EntityModel
-{
+{ 
    public class PurchaseReceivingDetails
     {
         public int Id { get; set; }
+        [Display(Name ="Price")]
         public int PurchasePrice { get; set; }
         public int Quantity { get; set; }
         public int PurchaseItemTotalPrice { get; set; }

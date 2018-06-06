@@ -17,14 +17,14 @@ namespace POS.Models.EntityModel
         public int? OrganizationsId { get; set; }
         public virtual Organizations Organizations { get; set; }
 
-        public List<Expense> Expenses { get; set; }
-        public List<Sales> Saleses { get; set; }
-        public List<PurchaseReceiving> PurchaseReceivings { get; set; }
-         public List<PurchaseReport> PurchaseReports { get; set; }
-        public List<ExpenseReport> ExpenseReports { get; set; }
-        public List<SalesReport> SalesReports { get; set; }
-        public List<StockReport> StockReports { get; set; }
-        public List<IncomeReport> IncomeReports { get; set; }
+        public virtual  List<Expense> Expenses { get; set; }
+        public virtual List<Sales> Saleses { get; set; }
+        public virtual List<PurchaseReceiving> PurchaseReceivings { get; set; }
+         public virtual List<PurchaseReport> PurchaseReports { get; set; }
+        public virtual List<ExpenseReport> ExpenseReports { get; set; }
+        public virtual List<SalesReport> SalesReports { get; set; }
+        public virtual List<StockReport> StockReports { get; set; }
+        public virtual List<IncomeReport> IncomeReports { get; set; }
 
     }
 }

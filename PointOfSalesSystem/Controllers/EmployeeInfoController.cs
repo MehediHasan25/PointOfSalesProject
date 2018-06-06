@@ -121,7 +121,7 @@ namespace PointOfSalesSystem.Controllers
             {
                 return null;
             }
-            var jsonData = employeeInfoList.Select(c => new {c.Id,c.Name } );
+            var jsonData = employeeInfoList.Select(c => new {c.Id,c.Name,c.Code } );
 
             return Json(jsonData, JsonRequestBehavior.AllowGet);
 
