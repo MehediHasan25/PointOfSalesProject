@@ -7,13 +7,13 @@ namespace POS.Repository.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class changes : IMigrationMetadata
+    public sealed partial class _2ndinitial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(changes));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(_2ndinitial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201806012101491_changes"; }
+            get { return "201806060802255_2ndinitial"; }
         }
         
         string IMigrationMetadata.Source

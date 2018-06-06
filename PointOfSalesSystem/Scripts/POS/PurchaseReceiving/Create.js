@@ -1,4 +1,30 @@
 ﻿$(document).ready(function () {
+    $("#BranchId").change(function () {
+        var branId = $("#BranchId").val();
+        var jsonData = { branchId: branId }
+        $.ajax({
+            url: "/EmployeeInfo/GetByBranch",
+            data: jsonData,
+            type: "post",
+            //contentType: "application/json",
+            success: function (response) {
+                var employeeDD = $("#EmployeeInfoId");
+                employeeDD.empty();
+                var option = "<option value>--Select..</option>";
+
+                $.each(response, function (key, employee) {
+                    option += "<option value='" + employee.Id + "'>" + employee.Code + "--" + employee.Name + "</option>";
+
+                });
+                employeeDD.append(option);
+            },
+            error: function (response) { }
+        });
+
+
+
+    });
+
     $("#addItem").click(function () {
         var selectedItem = getSelectedItem();
         createRowForPurchaseDetails(selectedItem);
