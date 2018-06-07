@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace POS.BLL.ManagerRepositories
 {
-    public class StockManager : Manager<Sales>
+    public class StockManager : Manager<Stock>
     {
-        public StockManager() : base(new SalesRepository())
+        public StockManager() : base(new StockRepository())
         {
         }
     }
