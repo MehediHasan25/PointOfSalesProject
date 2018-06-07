@@ -7,13 +7,13 @@ namespace POS.Repository.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class newchanges : IMigrationMetadata
+    public sealed partial class CSPROJ : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(newchanges));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(CSPROJ));
         
         string IMigrationMetadata.Id
         {
-            get { return "201806060945007_newchanges"; }
+            get { return "201806061014507_CSPROJ"; }
         }
         
         string IMigrationMetadata.Source

@@ -3,7 +3,7 @@ namespace POS.Repository.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class _2ndinitial : DbMigration
+    public partial class CSPROJ : DbMigration
     {
         public override void Up()
         {

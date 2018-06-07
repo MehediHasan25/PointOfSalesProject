@@ -49,12 +49,9 @@
   <ItemGroup>
     <Compile Include="Base\Repository.cs" />
     <Compile Include="DatabaseContext\PosManagementDbContext.cs" />
-
-
-    <Compile Include="Migrations\201806060945007_newchanges.cs" />
-    <Compile Include="Migrations\201806060945007_newchanges.Designer.cs">
-      <DependentUpon>201806060945007_newchanges.cs</DependentUpon>
-
+    <Compile Include="Migrations\201806061014507_CSPROJ.cs" />
+    <Compile Include="Migrations\201806061014507_CSPROJ.Designer.cs">
+      <DependentUpon>201806061014507_CSPROJ.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
@@ -115,11 +112,8 @@
     <Folder Include="bin\Release\" />
   </ItemGroup>
   <ItemGroup>
-
-  
-    <EmbeddedResource Include="Migrations\201806060945007_newchanges.resx">
-      <DependentUpon>201806060945007_newchanges.cs</DependentUpon>
-
+    <EmbeddedResource Include="Migrations\201806061014507_CSPROJ.resx">
+      <DependentUpon>201806061014507_CSPROJ.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
