@@ -58,16 +58,17 @@ namespace PointOfSalesSystem.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    var Stock = new StockCreateVM();
-                    foreach(PurchaseReceivingDetails purchaseReceivingDetails in model.PurchaseReceivingDetailses)
+                    
+                    foreach (PurchaseReceivingDetails purchaseReceivingDetails in model.PurchaseReceivingDetailses)
                     {
-                        Stock.AvgPrice = (Stock.StockQuantity * Stock.AvgPrice + purchaseReceivingDetails.Quantity * purchaseReceivingDetails.PurchasePrice) / (Stock.StockQuantity + purchaseReceivingDetails.Quantity);
-                        Stock.StockQuantity = Stock.StockQuantity + purchaseReceivingDetails.Quantity;
-                        Stock.ItemId = purchaseReceivingDetails.ItemId;
+                        var Stock = _stockManager.GetFirstOrDefault();
+                        //Stock.AvgPrice = (Stock.StockQuantity * Stock.AvgPrice + purchaseReceivingDetails.Quantity * purchaseReceivingDetails.PurchasePrice) / (Stock.StockQuantity + purchaseReceivingDetails.Quantity);
+                        //Stock.StockQuantity = Stock.StockQuantity + purchaseReceivingDetails.Quantity;
+                        //Stock.ItemId = purchaseReceivingDetails.ItemId;
                     }
 
-                    var MappedStock = Mapper.Map<Stock>(Stock);
-                    bool StockIsSaved = _stockManager.Save(MappedStock);
+                    //var MappedStock = Mapper.Map<Stock>(Stock);
+                    //bool StockIsSaved = _stockManager.Save(MappedStock);
                     var purchaseReceiving = Mapper.Map<PurchaseReceiving>(model);
                     bool isSaved = _purchaseReceivingManager.Save(purchaseReceiving);
                     if (isSaved)

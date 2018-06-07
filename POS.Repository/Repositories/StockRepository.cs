@@ -13,7 +13,6 @@ namespace POS.Repository.Repositories
     {
         public StockRepository() : base(new PosManagementDbContext())
         {
-
         }
     }
 }
