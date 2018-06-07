@@ -52,6 +52,9 @@ namespace PointOfSalesSystem
                 cfg.CreateMap<ExpenseCreateVM, Expense>();
                 cfg.CreateMap<Expense, ExpenseCreateVM>();
 
+                cfg.CreateMap<StockCreateVM, Stock>();
+                cfg.CreateMap<Stock, StockCreateVM>();
+
 
             }
              );
