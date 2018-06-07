@@ -61,7 +61,7 @@ namespace PointOfSalesSystem.Controllers
                     bool isSaved = _purchaseReceivingManager.Save(purchaseReceiving);
                     if (isSaved)
                     {
-                        
+                        model.PurchaseReceivingDetailses = _PurchaseReceivingDetailsManager.Get(c => c.PurchaseReceivingId == model.Id);
                         return RedirectToAction("Create");
                     }
                         
