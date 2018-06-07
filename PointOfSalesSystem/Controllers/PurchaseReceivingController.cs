@@ -17,6 +17,7 @@ namespace PointOfSalesSystem.Controllers
         EmployeeInfoManager _employeeInfoManager = new EmployeeInfoManager();
         ItemManager _itemManager = new ItemManager(); //item Manager for dropdown
         PurchaseReceivingDetailsManager _PurchaseReceivingDetailsManager = new PurchaseReceivingDetailsManager();
+        StockManager _stockManager = new StockManager();
         // GET: PurchaseReceiving
         public ActionResult Index()
         {
@@ -57,11 +58,20 @@ namespace PointOfSalesSystem.Controllers
             {
                 if (ModelState.IsValid)
                 {
+                    var Stock = new StockCreateVM();
+                    foreach(PurchaseReceivingDetails purchaseReceivingDetails in model.PurchaseReceivingDetailses)
+                    {
+                        Stock.AvgPrice = (Stock.StockQuantity * Stock.AvgPrice + purchaseReceivingDetails.Quantity * purchaseReceivingDetails.PurchasePrice) / (Stock.StockQuantity + purchaseReceivingDetails.Quantity);
+                        Stock.StockQuantity = Stock.StockQuantity + purchaseReceivingDetails.Quantity;
+                        Stock.ItemId = purchaseReceivingDetails.ItemId;
+                    }
+
+                    var MappedStock = Mapper.Map<Stock>(Stock);
+                    bool StockIsSaved = _stockManager.Save(MappedStock);
                     var purchaseReceiving = Mapper.Map<PurchaseReceiving>(model);
                     bool isSaved = _purchaseReceivingManager.Save(purchaseReceiving);
                     if (isSaved)
                     {
-                        model.PurchaseReceivingDetailses = _PurchaseReceivingDetailsManager.Get(c => c.PurchaseReceivingId == model.Id);
                         return RedirectToAction("Create");
                     }
                         
